@@ -1,4 +1,4 @@
-# <h>Hello, i'm Juvenal Baera 🤓</h1>
+# <h><img src="me.jpg" alt="My Profile Photo"> Hello, i'm Juvenal Baera 🤓</h1>
 
 ### <h2>Social Media</h2>
 
