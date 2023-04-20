@@ -1,0 +1,1001 @@
+address_id,personal_id,country,city,postal_code,street_nr,street_name
+1,1,Canada,Fort Erie,L2A,723,Macpherson
+2,2,Senegal,Ouro Sogui,,6638,Manley
+3,3,Philippines,Tabug,2905,52096,Spenser
+4,4,Bosnia and Herzegovina,Teslić,,03095,Kingsford
+5,5,Argentina,General Enrique Mosconi,3636,201,Jay
+6,6,China,Nianqiao,,859,Oneill
+7,7,Indonesia,Rokoy,,5,Forest Dale
+8,8,Afghanistan,Nūsay,,8,Clyde Gallagher
+9,9,Indonesia,Brak,,0562,Cascade
+10,10,Indonesia,Jembe Timur,,467,Surrey
+11,11,Argentina,Rawson,9103,3449,Sachtjen
+12,12,Cuba,Báguanos,,7,Kinsman
+13,13,Portugal,Castelo,3620-132,6959,Menomonie
+14,14,China,Caotang,,41,Raven
+15,15,China,Chimen,,0,Moose
+16,16,Indonesia,Semarapura,,4161,Dexter
+17,17,Brazil,Pontalina,75620-000,9717,Milwaukee
+18,18,China,Jagistay,,12,Warbler
+19,19,United States,Salinas,93907,228,Waxwing
+20,20,Poland,Sztum,82-400,805,Oneill
+21,21,Georgia,Lanchkhuti,,3,Lukken
+22,22,Albania,Gjegjan,,90,Dryden
+23,23,France,Lyon,69488 CEDEX 03,2241,Sunfield
+24,24,Nicaragua,La Libertad,,6171,Dapin
+25,25,France,Saint-Égrève,38524 CEDEX,1,Blackbird
+26,26,China,Shangyuan,,058,Mandrake
+27,27,Indonesia,Mamasa,,4139,Bayside
+28,28,New Zealand,Burnham,7600,9520,Mayfield
+29,29,France,Gentilly,94254 CEDEX,832,Westridge
+30,30,China,Shuangpengxi,,36115,Bonner
+31,31,China,Dongyuan,,2,Fair Oaks
+32,32,Bulgaria,Kŭrdzhali,6710,33,Russell
+33,33,Brazil,Ubatuba,11680-000,2079,Paget
+34,34,Macedonia,Gurgurnica,7314,1506,Mayer
+35,35,Indonesia,Banjar Sembunggede,,81,Scoville
+36,36,Russia,Uspenskoye,352450,3,Clove
+37,37,Brazil,Paraipaba,62685-000,57354,Schmedeman
+38,38,Vietnam,Thị Trấn Na Hang,,94,Westridge
+39,39,Bulgaria,Dimovo,3759,170,Erie
+40,40,Mongolia,Hongor,,9706,Service
+41,41,Indonesia,Paupanda Bawah,,629,Goodland
+42,42,China,Longde Chengguanzhen,,390,Declaration
+43,43,Tanzania,Kahama,,519,Westport
+44,44,Philippines,Tapon,6035,2,Green Ridge
+45,45,Bulgaria,Sapareva Banya,2645,444,Shelley
+46,46,China,Taoyuan,,73268,Glacier Hill
+47,47,Malawi,Kasungu,,10007,New Castle
+48,48,Peru,Macari,,97318,Westend
+49,49,Poland,Jeżów Sudecki,58-521,3506,New Castle
+50,50,China,Wensu,,68,Rockefeller
+51,51,China,Xingcheng,,7,Petterle
+52,52,Indonesia,Suka Makmue,,56,Washington
+53,53,United States,Fort Worth,76129,11,Harbort
+54,54,Iran,Rāmhormoz,,42,Anthes
+55,55,Indonesia,Nakajah,,3,Kennedy
+56,56,Uzbekistan,Qŭrghontepa,,0746,Northfield
+57,57,Indonesia,Gapuk,,1,Pleasure
+58,58,Nigeria,Argungu,,741,Portage
+59,59,Indonesia,Galubakul,,8,Amoth
+60,60,Sweden,Alingsås,441 92,59,Meadow Ridge
+61,61,Pakistan,Uthal,90150,43,Scoville
+62,62,Sweden,Solna,171 64,4,Namekagon
+63,63,Iran,Chābahār,,45,Kipling
+64,64,Germany,Halle,06126,62,Dakota
+65,65,Finland,Luopioinen,36760,6015,Fulton
+66,66,Uzbekistan,Kirgili,,4887,Moose
+67,67,Libya,Marādah,,28,Fremont
+68,68,Portugal,Alpedrinha,6230-060,291,Hovde
+69,69,Russia,Biskamzha,655735,440,Manley
+70,70,Canada,Chambly,J3L,9,Sachtjen
+71,71,France,Villejuif,94809 CEDEX,20234,Carioca
+72,72,United States,Reading,19610,82,Anzinger
+73,73,Yemen,Al Miftāḩ,,042,Utah
+74,74,Indonesia,Bungtiang Barat,,80,Schlimgen
+75,75,Russia,Nizhniy Kurkuzhin,361515,17,Northview
+76,76,Lesotho,Butha-Buthe,,420,Menomonie
+77,77,United States,Macon,31205,06377,Green
+78,78,Brazil,São Vicente,11300-000,42878,Algoma
+79,79,China,Quanxi,,809,Kenwood
+80,80,Botswana,Janeng,,71823,Charing Cross
+81,81,Russia,Karmaskaly,453150,741,Pierstorff
+82,82,Indonesia,Tanjung Palas,,37717,Green Ridge
+83,83,China,Maqiu,,04540,Ridgeview
+84,84,Syria,Muḩradah,,879,Butterfield
+85,85,Japan,Tsu-shi,515-2605,472,Union
+86,86,El Salvador,Santa Rosa de Lima,,2465,Meadow Valley
+87,87,Philippines,Tayum,2803,95103,Warrior
+88,88,China,Caotan,,6,Warner
+89,89,China,Cangshan,,953,Myrtle
+90,90,China,Lingshan,,075,Tennessee
+91,91,Russia,Stupino,142806,06972,Dwight
+92,92,Slovenia,Puconci,9201,81217,Sunnyside
+93,93,United States,Honolulu,96840,127,Sage
+94,94,Tajikistan,Istaravshan,,6,Bluestem
+95,95,Latvia,Ādaži,,6788,Continental
+96,96,China,Hetang,,2,Dottie
+97,97,Russia,Tomilino,140074,32,Evergreen
+98,98,China,Youwei,,19069,Declaration
+99,99,Canada,Saint-Constant,J5A,627,Nancy
+100,100,Brazil,Guaíba,92500-000,31423,Chinook
+101,101,China,Shaguotun,,95761,Annamark
+102,102,Czech Republic,Chlumec,403 39,3538,Independence
+103,103,North Korea,Kapsan-ŭp,,497,Spaight
+104,104,China,Xuefeng,,0,La Follette
+105,105,China,Xiaojie,,073,Graceland
+106,106,China,Mijiang,,96,Longview
+107,107,China,Jianxincun,,83942,Fieldstone
+108,108,Philippines,Paniqui,3322,39681,Cody
+109,109,China,Wangcheng,,2,Armistice
+110,110,Indonesia,Sukoreno,,04,Karstens
+111,111,Sweden,Bollnäs,821 94,69938,Meadow Ridge
+112,112,Russia,Razumnoye,309276,8,Erie
+113,113,Russia,Verbilki,141930,5776,Bluestem
+114,114,Poland,Brzozów,36-200,00,Mesta
+115,115,Armenia,Aygavan,,315,Straubel
+116,116,Indonesia,Sorongan,,6,Anthes
+117,117,France,Saint-Jean-de-Luz,64504 CEDEX,9,Farragut
+118,118,Philippines,Paombong,3001,23899,Sunnyside
+119,119,China,Damiao,,98970,Prairie Rose
+120,120,Sweden,Skänninge,596 92,85,East
+121,121,Brazil,Catalão,75700-000,37,Melrose
+122,122,Norway,Kristiansand S,4663,339,Del Sol
+123,123,Peru,Calango,,296,Canary
+124,124,United States,Denver,80279,6700,Kingsford
+125,125,France,Nancy,54009 CEDEX,990,Graceland
+126,126,United States,Cincinnati,45228,8,Tennyson
+127,127,Mozambique,Ressano Garcia,,3855,Badeau
+128,128,Venezuela,Sinamaica,,7106,Myrtle
+129,129,China,Fengle,,3,Morningstar
+130,130,China,Guandu,,6,Hansons
+131,131,Brazil,Santo Antônio da Platina,86430-000,9,Center
+132,132,Mexico,Guadalupe Victoria,30414,32328,Scott
+133,133,Indonesia,Natu,,85686,Golden Leaf
+134,134,China,Hetian,,03,Shelley
+135,135,Slovenia,Koroška Bela,4274,6,Graedel
+136,136,Ukraine,Kostyantynivka,,236,Jackson
+137,137,Portugal,Bolembre,2705-537,21,Arrowood
+138,138,Chad,Mao,,306,Lakeland
+139,139,China,Meikeng,,791,Farragut
+140,140,Russia,Kommunisticheskiy,628256,34331,Arrowood
+141,141,China,Baoxia,,762,Hansons
+142,142,China,Galutu,,31842,Arkansas
+143,143,Portugal,Reguenga,4825-364,58,Springview
+144,144,Brazil,Pirajuí,16600-000,07856,Longview
+145,145,South Africa,Mtubatuba,3940,9,Sullivan
+146,146,France,Saint-Ouen,93487 CEDEX,63088,Loftsgordon
+147,147,Finland,Reisjärvi,85900,550,Commercial
+148,148,Argentina,Calilegua,4514,2,Macpherson
+149,149,Indonesia,Cibodas,,72,Petterle
+150,150,Indonesia,Tanggung,,868,Raven
+151,151,Argentina,Bonpland,3234,625,Fisk
+152,152,France,Blois,41904 CEDEX 9,83596,Pond
+153,153,Indonesia,Sogati,,08,Rigney
+154,154,China,Zhoujiadian,,68742,Esch
+155,155,Tunisia,El Ksour,,07,Swallow
+156,156,China,Taixi,,9186,Swallow
+157,157,Philippines,Carriedo,4710,1,Delladonna
+158,158,China,Shangjing,,7,Blaine
+159,159,United States,Washington,20380,1768,Lawn
+160,160,Philippines,Calamba,7210,34,Oneill
+161,161,Madagascar,Ankazoabo,,80,Summerview
+162,162,Cameroon,Tibati,,38811,Cascade
+163,163,Pakistan,Khurriānwāla,26301,50654,Village
+164,164,Greece,Irákleion,,87707,Browning
+165,165,Panama,Guabito,,01181,Dwight
+166,166,Kenya,Keroka,,2408,Rusk
+167,167,Spain,"Palmas De Gran Canaria, Las",35015,4,Blaine
+168,168,Russia,Ust’-Omchug,666137,59,Calypso
+169,169,China,Yungaisi,,0,Independence
+170,170,China,Fangxian,,5194,Canary
+171,171,China,Jiaocun,,0380,Maywood
+172,172,China,Laozhuang,,29,Ronald Regan
+173,173,Indonesia,Cisantri,,6,Forster
+174,174,Brazil,Iturama,38280-000,04267,Transport
+175,175,Canada,Beauceville,G5X,516,Onsgard
+176,176,Russia,Novozybkov,243036,82,Meadow Ridge
+177,177,Croatia,Lučko,10250,1359,Jana
+178,178,Brazil,Formiga,35570-000,324,Jenifer
+179,179,Indonesia,Karanglo,,3867,Boyd
+180,180,Honduras,Santa Cruz,,0024,Springs
+181,181,Indonesia,Riangbaring,,47003,Shelley
+182,182,Syria,Ţayyibat al Imām,,56,Buhler
+183,183,Libya,Giado,,4368,Lakeland
+184,184,Czech Republic,Zákupy,471 23,17,Corben
+185,185,Bulgaria,Tvŭrditsa,8890,5,Lakewood Gardens
+186,186,Colombia,Campoalegre,413028,5671,Melrose
+187,187,Indonesia,Mujur Satu,,3,Westport
+188,188,Maldives,Naifaru,,29255,Hauk
+189,189,Russia,Donskoy,301767,6,Quincy
+190,190,Russia,Novokhopërsk,397440,1780,East
+191,191,Palestinian Territory,Bīr Nabālā,,57083,Forest Dale
+192,192,Greece,Agía Triáda,,360,Bartillon
+193,193,Nigeria,Musawa,,045,Pankratz
+194,194,Bangladesh,Manikchari,7460,913,Waubesa
+195,195,Philippines,Mantalongon,5608,87387,Bartelt
+196,196,China,Danchang,,796,Luster
+197,197,Thailand,Thung Song,80110,3270,Goodland
+198,198,China,Yuecheng,,52884,Sauthoff
+199,199,China,Huangmu,,0,Scott
+200,200,Pakistan,Sargodha,67391,7,Sundown
+201,201,Martinique,Le Lamentin,97283 CEDEX 1,776,Maryland
+202,202,Sweden,Danderyd,182 57,765,Rockefeller
+203,203,China,Jiusi,,64337,Vidon
+204,204,Poland,Brześć Kujawski,87-880,37467,Autumn Leaf
+205,205,South Korea,Eisen,,5704,Oneill
+206,206,Portugal,Pedro Miguel,9900-425,58,Westend
+207,207,Sweden,Stockholm,111 61,114,Thackeray
+208,208,Brazil,Frutal,38200-000,7,Towne
+209,209,Morocco,Oujda,,002,Manitowish
+210,210,China,Yanguan,,7,Cardinal
+211,211,Portugal,Olho Marinho,2510-515,924,Melrose
+212,212,China,Yangchun,,4,Jana
+213,213,Indonesia,Krajan Curahcotok,,42,Mockingbird
+214,214,Argentina,General Villegas,6230,0,Miller
+215,215,Macedonia,Veles,1400,93044,Pearson
+216,216,Armenia,Yeghegnut,,85148,Messerschmidt
+217,217,Colombia,Guayabal,732068,9080,Bobwhite
+218,218,Zambia,Luanshya,,54,Cherokee
+219,219,Russia,Myski,652849,3,Bunker Hill
+220,220,Indonesia,Cibugel,,19,Buell
+221,221,Czech Republic,Bánov,687 54,5,Fordem
+222,222,United States,Atlanta,30316,7828,Banding
+223,223,Indonesia,Rawasan,,406,Lakewood
+224,224,Portugal,Murça,5155-505,3,Sherman
+225,225,Russia,Kol’chugino,601787,19,Walton
+226,226,China,Donghoufang,,8121,Melrose
+227,227,China,Wushan,,884,Mariners Cove
+228,228,Brazil,Parelhas,59360-000,96,North
+229,229,China,Baiguan,,036,Portage
+230,230,Angola,Catabola,,441,Vidon
+231,231,Philippines,Estancia,5017,717,Anhalt
+232,232,Sweden,Habo,566 24,97,Glendale
+233,233,China,Wucheng,,89,Express
+234,234,Armenia,Artsvanist,,6,Del Mar
+235,235,Germany,Hannover,30629,3,Forest Run
+236,236,Argentina,Libertador General San Martín,4514,8,Shelley
+237,237,Indonesia,Maundai,,018,Washington
+238,238,United Kingdom,Swindon,SN1,92581,Sheridan
+239,239,United States,Muskegon,49444,79,Dahle
+240,240,Portugal,Tamel,4750-040,659,Corben
+241,241,Japan,Tagawa,997-0753,0,Hoard
+242,242,Portugal,Mosteiros,9555-145,0247,Summerview
+243,243,Sweden,Sundsvall,853 56,49280,Carey
+244,244,Canada,Amherst,B4H,118,Manley
+245,245,France,Roissy Charles-de-Gaulle,95761 CEDEX 1,930,Darwin
+246,246,China,Hong’an Chengguanzhen,,3882,Bowman
+247,247,Haiti,Jeremi,,5,Haas
+248,248,Yemen,Bayḩān,,40,Elka
+249,249,Russia,Novosemeykino,446378,77,Manufacturers
+250,250,Togo,Sotouboua,,41,Elmside
+251,251,Philippines,Don Carlos,8712,1,Boyd
+252,252,France,Nantes,44101 CEDEX 4,29,Hoffman
+253,253,China,Qinnan,,3,Ramsey
+254,254,Philippines,Imus,4103,06,2nd
+255,255,China,Xiayang,,241,Erie
+256,256,China,Yantai,,3,Larry
+257,257,Peru,Moche,,0,Muir
+258,258,China,Xiaheqing,,3842,Stoughton
+259,259,Czech Republic,Jaroměř,551 01,73,Tony
+260,260,Argentina,Veinticinco de Mayo,8201,2055,Evergreen
+261,261,Indonesia,Sukabatu,,27167,Almo
+262,262,Poland,Łubnice,98-432,272,Acker
+263,263,Sudan,Tokār,,9962,Fordem
+264,264,China,Yingmaili,,33,Chinook
+265,265,Russia,Chernogorsk,655138,235,Corscot
+266,266,Zimbabwe,Mount Darwin,,83,Monica
+267,267,Kiribati,Bonriki Village,,3,Northwestern
+268,268,China,Yongxing,,07654,Fremont
+269,269,Indonesia,Manola,,3509,Doe Crossing
+270,270,Poland,Gryfów Śląski,59-620,04,Mosinee
+271,271,Panama,La Mesa,,3005,Heffernan
+272,272,Indonesia,Pengilon,,69469,Killdeer
+273,273,Syria,Iḩsim,,742,Mallard
+274,274,China,Lingcheng,,851,Buhler
+275,275,Indonesia,Randu,,3,Melvin
+276,276,Argentina,Chamical,4608,76590,Chive
+277,277,Russia,Taksimo,671560,1,Dapin
+278,278,Brazil,Lucas,95000-000,5741,Maple
+279,279,China,Shitan,,25140,Arapahoe
+280,280,China,Luntai,,39,Comanche
+281,281,Canada,Prince Albert,S6W,379,Burrows
+282,282,North Korea,Hŭngju-dong,,81,Sherman
+283,283,China,Binjiang,,91389,Farwell
+284,284,Japan,Shirone,950-1262,2,Luster
+285,285,South Korea,Yangp'yŏng,,21991,Autumn Leaf
+286,286,Uzbekistan,Kyzyldzhar,,6,Swallow
+287,287,Japan,Tennō,492-8204,4898,Pond
+288,288,France,Strasbourg,67039 CEDEX 2,63479,Forest
+289,289,Portugal,Aranhas,6090-215,45248,Veith
+290,290,France,Pont-à-Mousson,54704 CEDEX,2155,Pankratz
+291,291,United States,Silver Spring,20910,47,Bluejay
+292,292,Brazil,Cuiabá,78000-000,7,Jenna
+293,293,Russia,Gryaznovskoye,623508,89,Gina
+294,294,Sweden,Tyresö,135 22,5586,Morning
+295,295,Philippines,Patong,6423,42,Melvin
+296,296,South Africa,Emnambithi-Ladysmith,3384,48649,Sutherland
+297,297,Indonesia,Kepel,,9,Upham
+298,298,Indonesia,Datarsitu,,006,Mcguire
+299,299,Philippines,Bantogon,5322,5,Shopko
+300,300,China,Wa’eryi,,6,Pearson
+301,301,China,Changzheng,,62073,Pearson
+302,302,Russia,Severka,620920,8,Fairfield
+303,303,China,Sai’erlong Xiang,,9662,Milwaukee
+304,304,Philippines,Nagbukel,2725,0703,Caliangt
+305,305,Sweden,Linköping,582 31,30867,Rutledge
+306,306,Greece,Áyios Vasílios,,8,Menomonie
+307,307,Malaysia,Pulau Pinang,10450,3951,Clemons
+308,308,Bosnia and Herzegovina,Banja Luka,,2,Gateway
+309,309,China,Jinrui,,6494,Fairfield
+310,310,Russia,Ural,663974,369,Cardinal
+311,311,Indonesia,Ciudian,,534,American Ash
+312,312,Thailand,Loei,42000,76,Forster
+313,313,Indonesia,Balung Barat,,987,Vidon
+314,314,Norway,Oslo,0424,457,Packers
+315,315,Czech Republic,Bohutín,789 62,476,Bartelt
+316,316,China,Mingyue,,1,Village
+317,317,Philippines,Mambusao,5807,91453,Fairfield
+318,318,Thailand,Kap Choeng,57210,349,Spaight
+319,319,Uzbekistan,Daxbet,,5,Dottie
+320,320,Central African Republic,Carnot,,9600,Del Mar
+321,321,Madagascar,Miandrarivo,,47613,Forest Run
+322,322,Syria,Tall Rif‘at,,6,Springview
+323,323,Afghanistan,Manogay,,0167,Annamark
+324,324,France,Thionville,57119 CEDEX,20,Oxford
+325,325,Philippines,Conel,6053,2057,Boyd
+326,326,Albania,Valbonë,,5,1st
+327,327,Indonesia,Sambongpari,,27544,Mcbride
+328,328,Russia,Dal’nerechensk,692980,61847,Lakewood Gardens
+329,329,Bolivia,Samaipata,,58,Gateway
+330,330,Indonesia,Lewobelek,,9892,Reinke
+331,331,China,Dayin,,8599,Myrtle
+332,332,Philippines,Monamon,0919,563,Linden
+333,333,China,Luoqiao,,319,Eastlawn
+334,334,Ukraine,Velyka Bilozerka,,27400,Lindbergh
+335,335,China,Jiangbei,,5,Alpine
+336,336,China,Goujie,,67,North
+337,337,Canada,Repentigny,J6V,128,Dunning
+338,338,China,Piduhe,,8,Barby
+339,339,China,Renfengzhuang,,7590,Butterfield
+340,340,Philippines,Magdalena,4007,24867,Sullivan
+341,341,Zimbabwe,Dorowa Mining Lease,,32,Heath
+342,342,Philippines,San Ricardo,6617,1,Warner
+343,343,Indonesia,Cikadu,,751,Spohn
+344,344,Indonesia,Bengubelan,,866,Cardinal
+345,345,Indonesia,Sampangbitung,,810,Thackeray
+346,346,Poland,Straszydle,36-043,5624,Mendota
+347,347,Greece,Artémida,,73,Bobwhite
+348,348,Philippines,Tamiso,2819,99,Nobel
+349,349,Denmark,Frederiksberg,1812,438,Kipling
+350,350,Russia,Beloostrov,238323,3,Rowland
+351,351,Indonesia,Jampang Tengah,,297,Mcguire
+352,352,France,Sablé-sur-Sarthe,72304 CEDEX,7,Stoughton
+353,353,France,Besançon,25086 CEDEX 9,3,Marcy
+354,354,Peru,Zapatero,,42,Cody
+355,355,Indonesia,Pasirbatang,,35,Forster
+356,356,France,Annecy,74009 CEDEX,4,Merry
+357,357,Poland,Doruchów,63-505,4,Meadow Ridge
+358,358,Uganda,Kibuku,,9,Aberg
+359,359,China,Longqiao,,50012,Holmberg
+360,360,Portugal,Antas,3630-014,809,Ronald Regan
+361,361,Syria,Khān Arnabah,,998,Ryan
+362,362,France,Cavaillon,84309 CEDEX,8661,Graceland
+363,363,Peru,Independencia,,10,North
+364,364,Indonesia,Rangmanten,,91,Larry
+365,365,Poland,Krzykosy,63-024,3,Raven
+366,366,Ethiopia,Yabēlo,,36903,6th
+367,367,Russia,Pskov,180559,1,Bunker Hill
+368,368,Indonesia,Karamat,,7,Mcguire
+369,369,Armenia,Verin Artashat,,8,Pawling
+370,370,Sweden,Tingsryd,362 23,55,Cambridge
+371,371,Norway,Oslo,0173,1,Bluestem
+372,372,Iran,Langarūd,,6240,Acker
+373,373,Nigeria,Ilesa,,15424,Maple Wood
+374,374,France,Portet-sur-Garonne,31124 CEDEX,649,Sycamore
+375,375,New Zealand,Rothesay Bay,0794,324,Mcguire
+376,376,China,Panjiawan,,93615,Bunting
+377,377,Indonesia,Bente,,48397,Hallows
+378,378,United States,San Jose,95194,34,Eastwood
+379,379,United Kingdom,Halton,LS9,31,Russell
+380,380,Portugal,Oliveira,3660-622,82,Packers
+381,381,Brazil,Ferraz de Vasconcelos,08500-000,6343,Bluejay
+382,382,Russia,Sergiyev Posad,141309,38735,Duke
+383,383,Thailand,Phan Thong,20160,4,Magdeline
+384,384,Sweden,Filipstad,682 33,6,Dahle
+385,385,Bahrain,Al Muharraq,,3,Everett
+386,386,Macedonia,Kisela Voda,2436,672,Cardinal
+387,387,Japan,Takahama,880-2215,914,Moose
+388,388,China,Yuejin,,79,Coolidge
+389,389,Ukraine,Petrikov,,28058,Maywood
+390,390,Syria,Kuwayris Sharqī,,977,Lighthouse Bay
+391,391,Vietnam,Chợ Lầu,,263,Ilene
+392,392,Croatia,Trilj,21240,3570,8th
+393,393,Indonesia,Garunggang,,3792,Oakridge
+394,394,Pakistan,Khānewāl,58181,0413,Starling
+395,395,Indonesia,Wonoharjo,,26129,South
+396,396,Ukraine,Kakhovka,,2,Fordem
+397,397,Czech Republic,Dřevohostice,751 14,226,Linden
+398,398,China,Aimin,,25488,Marquette
+399,399,Thailand,Bueng Sam Phan,27180,02,Aberg
+400,400,Indonesia,Sumbersewu,,9630,Schurz
+401,401,China,Jiashi,,4,South
+402,402,Indonesia,Wonotirto,,7,Birchwood
+403,403,Ukraine,Bolhrad,,97763,Forest Dale
+404,404,China,Erqu,,260,Bartillon
+405,405,Brazil,Governador Valadares,35000-000,89,Stoughton
+406,406,China,Shengze,,6686,West
+407,407,Poland,Zabłocie,43-523,603,Gateway
+408,408,Croatia,Srinjine,21292,81,Center
+409,409,Macedonia,Желино,1228,2,Westend
+410,410,Brazil,Gaspar,89110-000,665,Sachs
+411,411,China,Mingyuedian,,3,Forest
+412,412,China,Xuebu,,11,Nova
+413,413,Malta,Floriana,FRN,5840,Valley Edge
+414,414,Vietnam,Thị Trấn Quan Hóa,,94334,La Follette
+415,415,Argentina,San Salvador de Jujuy,4600,6125,Lawn
+416,416,Mexico,San Luis,27400,470,Tennyson
+417,417,China,Jiaokou,,53,Raven
+418,418,Portugal,Abade de Vermoim,4770-014,56136,7th
+419,419,Jamaica,Hayes,,027,Delaware
+420,420,Peru,Achoma,,05,Hollow Ridge
+421,421,Russia,Zelenograd,143912,5,Pond
+422,422,Indonesia,Wakapuken,,2,Loomis
+423,423,Indonesia,Kabongan Kidul,,652,Fremont
+424,424,Palestinian Territory,Khān Yūnis,,7,Carberry
+425,425,Indonesia,Krajan Demit,,220,Sachtjen
+426,426,Vietnam,Phước An,,27138,Continental
+427,427,Brazil,Tianguá,62320-000,24,Morrow
+428,428,Thailand,Tha Ruea,13130,21751,Forest Dale
+429,429,Thailand,Bo Kluea,13190,5124,Lighthouse Bay
+430,430,Philippines,Santa Lucia,2712,7,Mitchell
+431,431,Vietnam,Thị Trấn Văn Quan,,7472,John Wall
+432,432,China,Xinfa,,1,Del Sol
+433,433,Indonesia,Krikil,,2,Jay
+434,434,Russia,Tutayev,152300,4688,Fairview
+435,435,Venezuela,San Fernando Apure,,193,Arrowood
+436,436,China,Jianggu,,2,Commercial
+437,437,Indonesia,Watulumbung,,9812,Paget
+438,438,Canada,Irricana,B3T,73998,Upham
+439,439,Greece,Néa Ionía,,5,Fieldstone
+440,440,Ukraine,Strohonivka,,9,Tony
+441,441,China,Wangxian,,0297,Drewry
+442,442,China,Kongjiang,,8,Oxford
+443,443,Indonesia,Nangerang,,9816,Novick
+444,444,United States,Lawrenceville,30045,14768,Prentice
+445,445,Poland,Ostrów Lubelski,21-110,2,Lerdahl
+446,446,Poland,Zarszyn,38-524,6,Forest
+447,447,China,Qingyang,,6726,Onsgard
+448,448,Indonesia,Jasugih Selatan,,4737,Park Meadow
+449,449,Japan,Tanashichō,203-0044,99,Ryan
+450,450,Armenia,Lanjaghbyur,,820,Heath
+451,451,Portugal,São João,4890-484,6968,Debs
+452,452,Brazil,Araras,13600-000,5,Birchwood
+453,453,United States,Atlanta,30328,54696,Washington
+454,454,Indonesia,Citalahab,,173,Bunker Hill
+455,455,Peru,Ichuña,,4038,Paget
+456,456,Serbia,Gadžin Han,,2323,Village
+457,457,China,Hualin,,40,Charing Cross
+458,458,Indonesia,Daja Lorong,,1,Delladonna
+459,459,Sierra Leone,Seidu,,4,Harper
+460,460,Thailand,Kathu,83120,604,Shopko
+461,461,Sudan,El Fasher,,189,Portage
+462,462,Indonesia,Banjarjo,,68,Lakewood Gardens
+463,463,Thailand,Pran Buri,77120,501,Loftsgordon
+464,464,Philippines,Panitian,5309,83441,Sunbrook
+465,465,Sweden,Borlänge,781 29,6167,Delaware
+466,466,Argentina,Santa Catalina - Dique Lujan,1623,34995,Lindbergh
+467,467,Russia,Pevek,689400,5,Clemons
+468,468,Bolivia,Camatindi,,60,Commercial
+469,469,France,Villeurbanne,69624 CEDEX,75,Monterey
+470,470,Russia,Shelopugino,673610,776,Helena
+471,471,Bangladesh,Netrakona,5405,47,Heffernan
+472,472,Brazil,Santos Dumont,36240-000,86695,Gina
+473,473,Indonesia,Bajawa,,98,Arapahoe
+474,474,Czech Republic,Kunvald,561 81,0,Delaware
+475,475,Indonesia,Blimbing,,0530,Barnett
+476,476,China,Yingde’er,,90,Twin Pines
+477,477,Poland,Stegna,82-103,95305,Anzinger
+478,478,Colombia,Sincé,056450,69,Roxbury
+479,479,Russia,Gornyye Klyuchi,622012,0,Muir
+480,480,Brazil,Itacorubi,88000-000,2347,Larry
+481,481,Brazil,Livramento do Brumado,46140-000,97710,Bartillon
+482,482,Canada,Lévis,G6W,9,New Castle
+483,483,Senegal,Gandiaye,,657,Clove
+484,484,Russia,Pevek,689400,81396,Dapin
+485,485,France,Nîmes,30006 CEDEX 4,841,Spohn
+486,486,Portugal,Estela,4570-198,43,Sullivan
+487,487,Indonesia,Kalisangkrah Lor,,22864,Debra
+488,488,Portugal,Azinhal,8950-023,98430,Harper
+489,489,Mexico,Guadalupe,38900,050,Goodland
+490,490,China,Rizhao,,6,Schmedeman
+491,491,Kyrgyzstan,Talas,,534,Washington
+492,492,China,Huaikan,,282,Chive
+493,493,China,Youdian,,00,Randy
+494,494,Portugal,Sacotes,2725-511,46,Lakewood
+495,495,Indonesia,Paseyan,,4909,Rutledge
+496,496,Serbia,Zrenjanin,,14269,Calypso
+497,497,Kazakhstan,Ust-Kamenogorsk,,95,Michigan
+498,498,Indonesia,Pangatikan,,1,Merchant
+499,499,Bulgaria,Vratsa,3053,3,Del Mar
+500,500,China,Xifangcheng,,0,Gulseth
+501,501,Russia,Novaya Usman’,396310,7,Kropf
+502,502,Indonesia,Beaung Tengah,,129,Oak
+503,503,Indonesia,Longkali,,20453,Utah
+504,504,Poland,Sucha,89-525,1640,Hauk
+505,505,Bulgaria,Kavarna,9656,89487,Weeping Birch
+506,506,Albania,Fier,,1154,Emmet
+507,507,Indonesia,Kudang,,55,Lawn
+508,508,Portugal,Famões,1685-141,3279,Monument
+509,509,Canada,Havre-Saint-Pierre,H4R,6,West
+510,510,China,Chishan,,81,Dayton
+511,511,Tunisia,La Mohammedia,,58,Roxbury
+512,512,Philippines,Salcedo,6807,2970,Karstens
+513,513,Indonesia,Kubang,,10120,Sommers
+514,514,Ireland,Midleton,P25,7,Marcy
+515,515,Indonesia,Pakkat,,19,Gina
+516,516,Indonesia,Paciran,,365,Kedzie
+517,517,Philippines,Lingion,8708,0,Bartillon
+518,518,Indonesia,Kebonagung,,1178,Derek
+519,519,France,Toulon,83092 CEDEX,41,Claremont
+520,520,China,Xianju,,2,Loomis
+521,521,United States,Round Rock,78682,716,Packers
+522,522,United States,Schenectady,12305,48,Jana
+523,523,Iran,Āshtīān,,70202,Westend
+524,524,Tanzania,Magomeni,,18161,Division
+525,525,Indonesia,Manna,,9250,Summerview
+526,526,Russia,Slavgorod,628517,329,Coolidge
+527,527,Brazil,Guararema,08900-000,27340,Fuller
+528,528,Dominican Republic,Fundación,10109,1702,Gina
+529,529,Canada,Marathon,P6A,275,Crescent Oaks
+530,530,Poland,Paniówki,44-177,442,Cody
+531,531,China,Gaogu,,59640,Wayridge
+532,532,China,Miaoya,,08866,Monument
+533,533,France,Vesoul,70030 CEDEX,26487,Kipling
+534,534,Indonesia,Mekarjaya Satu,,94,Old Shore
+535,535,Morocco,Sidi Slimane,,0,Village Green
+536,536,Russia,Ivot,423959,9581,Service
+537,537,Sweden,Ängelholm,262 57,79112,Annamark
+538,538,United States,Salt Lake City,84170,9,Coleman
+539,539,Philippines,Salvacion,1114,4249,Rockefeller
+540,540,China,Suozhen,,9534,Bobwhite
+541,541,Brazil,Arapongas,86700-000,00,Grasskamp
+542,542,Russia,Knyaginino,606340,15,Sachs
+543,543,Argentina,Villa Santa Rita,4600,64,Crescent Oaks
+544,544,Uzbekistan,Qiziltepa Shahri,,10910,Holmberg
+545,545,China,Nyagla,,9684,2nd
+546,546,Indonesia,Cimuncang,,33216,Blaine
+547,547,Indonesia,Kuafeu,,50320,Milwaukee
+548,548,Ecuador,Quito,,32,Barnett
+549,549,Japan,Koga,869-0233,0179,Kipling
+550,550,Russia,Perm,614097,1,Logan
+551,551,Sweden,Lysekil,453 35,214,Merry
+552,552,Indonesia,Lalukoen Dua,,0486,Springview
+553,553,Russia,Rodnikovskaya,357565,9,Forest
+554,554,Nigeria,Kano,,89040,Hermina
+555,555,Mexico,Las Palmas,67710,0,Blaine
+556,556,Malta,Saint John,ZTN,5054,Briar Crest
+557,557,Indonesia,Tanjungbatu,,72732,Ridgeview
+558,558,Colombia,Candelaria,111711,77,Thierer
+559,559,France,Soisy-sous-Montmorency,95234,46537,Dovetail
+560,560,China,Lidong,,33,Lotheville
+561,561,China,Youlan,,919,Calypso
+562,562,Indonesia,Kedungtaman,,544,Scofield
+563,563,Nigeria,Otan Aiyegbaju,,40,Bartillon
+564,564,Philippines,Pangantocan,4006,87,Toban
+565,565,Kazakhstan,Stepnogorsk,,78,Thompson
+566,566,Indonesia,Kuniran,,6579,Pawling
+567,567,Argentina,San Antonio Oeste,8520,73,Hansons
+568,568,Thailand,Mae Lan,94180,79,Petterle
+569,569,Japan,Uenohara,981-4327,115,Portage
+570,570,Ukraine,Nyrkiv,,91553,Valley Edge
+571,571,Philippines,Cama Juan,1656,3,4th
+572,572,Brazil,Guajará Mirim,14765-000,8,Starling
+573,573,China,Baolin,,2584,Bluejay
+574,574,Philippines,Kabacan,9407,8,Dovetail
+575,575,Peru,Cuchumbaya,,1,Gulseth
+576,576,China,Dolati,,0,Arkansas
+577,577,China,Weiyuankou,,0,Gale
+578,578,Indonesia,Panjir,,00,Burning Wood
+579,579,Bolivia,Huanuni,,4,Randy
+580,580,North Korea,Sinmak,,215,Roxbury
+581,581,Philippines,Makato,5611,0,Hauk
+582,582,Gambia,Bureng,,41,Kenwood
+583,583,United States,Kansas City,64125,713,Granby
+584,584,United States,Wilmington,19805,27229,Westend
+585,585,China,Huangmao,,68837,Namekagon
+586,586,Sweden,Västerås,721 00,70607,Hollow Ridge
+587,587,Portugal,Anadia,3780-204,82,Farragut
+588,588,China,Gangtun,,8348,Nevada
+589,589,Sweden,Sundsvall,850 09,28527,Mosinee
+590,590,Russia,Suvorov,301439,708,Karstens
+591,591,China,Shangqing,,93032,Bonner
+592,592,China,Pianbai,,533,Elmside
+593,593,France,Laval,53085 CEDEX 9,6,Carberry
+594,594,Cuba,Camajuaní,,533,La Follette
+595,595,Philippines,Puerto Galera,5203,151,Brown
+596,596,Canada,Digby,N3Y,63923,Katie
+597,597,Indonesia,Kiukasen,,749,Dawn
+598,598,Japan,Sasebo,859-6411,9,Veith
+599,599,North Korea,Sinanju,,93,Westport
+600,600,United States,Detroit,48206,75,Kropf
+601,601,Sweden,Katrineholm,641 36,714,Hansons
+602,602,Sweden,Finspång,612 32,846,Harbort
+603,603,Indonesia,Gludug,,59,Merry
+604,604,China,Biaoshan,,1,Blaine
+605,605,Indonesia,Batang,,253,Hovde
+606,606,Indonesia,Kedungbulu,,77500,Texas
+607,607,China,Beizheng,,7,Haas
+608,608,Slovenia,Nazarje,3331,9,Green Ridge
+609,609,Indonesia,Juranalas,,6811,Chive
+610,610,Cayman Islands,East End,,4,Hollow Ridge
+611,611,China,Partang,,2628,Bowman
+612,612,Sweden,Borås,503 06,68922,East
+613,613,Russia,Gorodets,606533,85,Browning
+614,614,France,Nanterre,92004 CEDEX,61864,Service
+615,615,France,Lille,59895 CEDEX 9,867,Kinsman
+616,616,Russia,Priyutovo,452189,37,Knutson
+617,617,Russia,Kapotnya,140093,2237,Amoth
+618,618,Philippines,Robonkon,7016,9,Portage
+619,619,Germany,Hamm,59071,908,Hoard
+620,620,Ukraine,Bayrachky,,56,Mitchell
+621,621,Tanzania,Bunda,,9852,Montana
+622,622,Russia,Staromyshastovskaya,353220,3984,Tony
+623,623,Indonesia,Duwe,,4,Shoshone
+624,624,Iran,Chenārān,,334,Main
+625,625,Panama,El Caño,,45,Orin
+626,626,Brazil,São Sebastião do Caí,95760-000,68,4th
+627,627,Thailand,Sawang Daen Din,47110,2468,Sundown
+628,628,Belarus,Ivyanyets,,32001,8th
+629,629,Palestinian Territory,Mardā,,3501,Kensington
+630,630,Russia,Suvorovskaya,363001,252,Del Mar
+631,631,China,Shengping,,658,Warner
+632,632,China,Jiaoyang,,2291,Steensland
+633,633,Norway,Sandefjord,3249,59,Stang
+634,634,China,Gaoming,,53172,Weeping Birch
+635,635,Russia,Il’inskiy Pogost,142655,7,Anhalt
+636,636,Libya,Zliten,,8711,Butterfield
+637,637,Indonesia,Mekarsari,,4,Center
+638,638,China,Xuanzhou,,13586,Warner
+639,639,Burkina Faso,Koudougou,,8898,Armistice
+640,640,France,Amiens,80075 CEDEX 1,200,Stephen
+641,641,Brazil,São Gonçalo do Amarante,59290-000,0,Talisman
+642,642,Vietnam,Tây Hồ,,1,Kim
+643,643,Portugal,Foros da Catrapona,2840-051,891,Tomscot
+644,644,Haiti,Quartier Morin,,9,Waxwing
+645,645,Bulgaria,Dimovo,3759,30817,Carey
+646,646,Madagascar,Beloha,,35,Charing Cross
+647,647,China,Xiaopingba,,976,Northwestern
+648,648,Comoros,Madjeouéni,,6849,Kipling
+649,649,China,Tumen,,3,Harbort
+650,650,Peru,Capacmarca,,718,Carberry
+651,651,China,Sishui,,430,Packers
+652,652,Poland,Wawrzeńczyce,32-125,9113,Schmedeman
+653,653,Vietnam,Đông Thành,,66241,Continental
+654,654,Russia,Yelan’-Kolenovskiy,152720,3,Village Green
+655,655,Iran,Noşratābād,,716,Waxwing
+656,656,Philippines,Bolanon,2208,59,Londonderry
+657,657,Russia,Burla,658810,89,Bonner
+658,658,United States,Oklahoma City,73142,1969,Norway Maple
+659,659,Poland,Pęczniew,99-235,3,Kim
+660,660,Argentina,La Falda,4640,0,Monterey
+661,661,Colombia,Caucasia,052418,51,Bartillon
+662,662,China,Beixinjie,,191,Toban
+663,663,China,Hoxtolgay,,26,Dahle
+664,664,Russia,Meget,155381,9,Sutteridge
+665,665,China,Changzheng,,16,Gulseth
+666,666,Uganda,Kaabong,,26706,Southridge
+667,667,Sweden,Enköping,745 38,9,Dayton
+668,668,Indonesia,Munturkaju,,5576,2nd
+669,669,Serbia,Aleksinac,,68269,Scott
+670,670,France,Romans-sur-Isère,26109 CEDEX,81,Sheridan
+671,671,Philippines,Llorente,6803,79616,Fairfield
+672,672,Indonesia,Taimaman,,69599,Eagan
+673,673,Namibia,Eenhana,,49024,Hermina
+674,674,United States,Oklahoma City,73142,02,Westport
+675,675,Indonesia,Sukajadi,,2,Prairie Rose
+676,676,New Zealand,Timaru,7940,531,Iowa
+677,677,Russia,Kagal’nitskaya,403538,758,New Castle
+678,678,Poland,Gnieżdżewo,84-130,0067,Pine View
+679,679,Peru,Tumbes,,55,Harbort
+680,680,Brazil,Formosa do Rio Preto,47990-000,7231,Express
+681,681,China,Zeguo,,749,Garrison
+682,682,Chile,Coihaique,,16,Mallard
+683,683,Greece,Dimitsána,,4,Bobwhite
+684,684,Argentina,Mar del Plata,7600,41341,East
+685,685,Indonesia,Bantarpanjang,,8824,Carberry
+686,686,Russia,Barguzin,671610,11,Cambridge
+687,687,Afghanistan,Ḩāfiz̧ Moghul,,31653,Morrow
+688,688,Canada,Toronto,M7A,31560,Nobel
+689,689,China,Dajin,,2583,Roxbury
+690,690,Indonesia,Pasirmadang,,4022,Mesta
+691,691,Norway,Oslo,0880,73319,Arkansas
+692,692,Afghanistan,Farah,,08062,Hazelcrest
+693,693,China,Yuhe,,8448,Spaight
+694,694,Portugal,Veiga,4960-468,82911,Holy Cross
+695,695,Poland,Grzmiąca,78-450,8,Truax
+696,696,Sweden,Hisings Kärra,425 65,18616,Tennyson
+697,697,Iran,Sūrān,,62,Kensington
+698,698,Bulgaria,Sozopol,8131,27,Fulton
+699,699,Russia,Staraya Derevnya,422367,2759,Sauthoff
+700,700,Indonesia,Gawanan,,9,Granby
+701,701,Philippines,Sibagat,8503,28079,Hagan
+702,702,Malaysia,Kuantan,25200,29,Mandrake
+703,703,China,Xilin Hot,,14,Erie
+704,704,Brazil,Capão da Canoa,95555-000,9,Crescent Oaks
+705,705,China,Nonghe,,958,Di Loreto
+706,706,Ukraine,Krasnodon,,7,Dakota
+707,707,Poland,Podebłocie,04-622,3,Hansons
+708,708,Malta,Sliema,SLM,398,Straubel
+709,709,Malaysia,Kuching,93658,07,Sunbrook
+710,710,Russia,Miatli,368156,8766,Golf
+711,711,Micronesia,Faraulep,,35,Acker
+712,712,Czech Republic,Liběšice,506 01,404,Melby
+713,713,China,Guifeng,,451,Center
+714,714,Azerbaijan,Amirdzhan,,34,Logan
+715,715,Poland,Książ Wielkopolski,63-130,519,Bunker Hill
+716,716,Brazil,Salto,13320-000,11,Becker
+717,717,Philippines,Maluko,9800,7,Mariners Cove
+718,718,China,Shigongqiao,,08704,Harbort
+719,719,Chile,Corral,,48941,Nova
+720,720,Ukraine,Chulakivka,,75,Arkansas
+721,721,Portugal,Carregal,3800-854,5,Golf View
+722,722,Poland,Zubrzyca Dolna,34-481,6,Tomscot
+723,723,Poland,Baborów,48-120,2,Delaware
+724,724,China,Handegate,,94,Weeping Birch
+725,725,China,Zhong’an,,9,Oakridge
+726,726,China,Hengshan,,8052,Monument
+727,727,China,Pingqiao,,385,Calypso
+728,728,Croatia,Brodarica,51242,55936,Ridgeway
+729,729,Guatemala,San Lucas Tolimán,07013,78033,Trailsway
+730,730,Madagascar,Ampasimanolotra,,74,Corry
+731,731,China,Guanghou,,1188,Maywood
+732,732,Canada,Rosthern,B0L,87938,North
+733,733,Indonesia,Jambeyan,,863,Paget
+734,734,Peru,Tunal,,18,Clove
+735,735,Sweden,Lindome,437 36,59,Jenifer
+736,736,Mauritania,Atar,,82151,Mifflin
+737,737,Brazil,Videira,89560-000,137,Caliangt
+738,738,Ethiopia,Āgaro,,672,American Ash
+739,739,Mongolia,Buyant,,99845,Arkansas
+740,740,Cameroon,Dizangué,,3679,Forest Run
+741,741,Indonesia,Krikil,,87747,Lyons
+742,742,China,Luozhuang,,7432,Clarendon
+743,743,Sweden,Mölndal,431 49,4,Lindbergh
+744,744,Yemen,Ta‘izz,,8,East
+745,745,Philippines,Masaling,1141,3,Sherman
+746,746,Russia,Dugulubgey,361538,41,Grim
+747,747,Slovenia,Lavrica,1293,2,Lindbergh
+748,748,China,Lianhe,,154,Hollow Ridge
+749,749,China,Qianguo,,3,South
+750,750,China,Jinping,,1833,Chinook
+751,751,China,Longshan,,3812,Sunbrook
+752,752,Cape Verde,Cidade Velha,,784,John Wall
+753,753,United States,Newark,07112,90,Sunfield
+754,754,Portugal,Carvalho,4950-703,40,Bartelt
+755,755,Mongolia,Bayangol,,2587,Schlimgen
+756,756,Belarus,Pinsk,,0,Algoma
+757,757,China,Zhongshu,,953,Mallard
+758,758,France,Angers,49905 CEDEX 9,98,Garrison
+759,759,Philippines,Malbug,2402,2191,Daystar
+760,760,Zimbabwe,Chivhu,,858,Ramsey
+761,761,Ukraine,Yenakiyeve,,8,Stoughton
+762,762,China,Wangzha,,5,Main
+763,763,Kazakhstan,Ekibastuz,,69,Garrison
+764,764,Ethiopia,Kibre Mengist,,6534,Warbler
+765,765,Philippines,Pajo,1665,022,Petterle
+766,766,Poland,Gizałki,63-308,24,Petterle
+767,767,Sweden,Norrtälje,761 31,9,Oneill
+768,768,China,Chengkan,,8,Continental
+769,769,Nigeria,Ugbokpo,,139,Katie
+770,770,France,Le Perreux-sur-Marne,94174 CEDEX,9621,Badeau
+771,771,Ukraine,Utkivka,,1,Bunker Hill
+772,772,Czech Republic,Dolní Lhota,747 66,79560,Sauthoff
+773,773,Iran,Zarrīn Shahr,,552,Bashford
+774,774,Sierra Leone,Sumbuya,,752,Lukken
+775,775,Spain,Donostia-San Sebastian,20005,3517,Welch
+776,776,Indonesia,Sukamaju,,04085,Arapahoe
+777,777,China,Weishanzhuang,,1255,East
+778,778,Poland,Studzionka,43-245,68,Comanche
+779,779,Russia,Novyye Cherëmushki,142817,4,Longview
+780,780,Portugal,Reriz,3600-587,32,Kim
+781,781,Russia,Buturlinovka,397507,325,Thackeray
+782,782,China,Shazikou,,7,Merchant
+783,783,Myanmar,Thaton,,3021,Lien
+784,784,China,Yuxin,,4009,Steensland
+785,785,Russia,Verkhov’ye,303720,263,8th
+786,786,Cuba,Bartolomé Masó,,7,Oak
+787,787,Finland,Pudasjärvi,93170,68,Westridge
+788,788,Mexico,San Pedro,48744,217,Sunnyside
+789,789,China,Zhongguanyi,,568,Spohn
+790,790,Russia,Ishkhoy-Yurt,368164,81217,Arizona
+791,791,Russia,Shilovo,391545,0147,Becker
+792,792,Dominican Republic,San Cristóbal,11511,3,Blaine
+793,793,United States,Waco,76796,2367,Blaine
+794,794,Norway,Bodø,8029,40295,Burrows
+795,795,Peru,Pampas,,794,Westerfield
+796,796,Japan,Toki,509-6251,953,Dennis
+797,797,China,Wujiaying,,891,Westerfield
+798,798,Indonesia,Cendagah,,905,Sauthoff
+799,799,Bosnia and Herzegovina,Donja Mahala,,5,Graceland
+800,800,Nicaragua,Jinotepe,,412,Prairie Rose
+801,801,Poland,Nowe Miasto,09-120,4,Sycamore
+802,802,Philippines,Bulihan,5000,87355,Dahle
+803,803,Philippines,De la Paz,7105,9961,Lien
+804,804,Colombia,El Carmen,547079,55,Charing Cross
+805,805,China,Mentougou,,746,Loomis
+806,806,China,Chengjiao Chengguanzhen,,5497,Hoffman
+807,807,Serbia,Krupanj,,79,Morning
+808,808,Poland,Mała Wieś,09-460,261,Annamark
+809,809,China,Zhaobei,,03,Farmco
+810,810,China,Nanlu,,731,Coleman
+811,811,Indonesia,Wates,,28,North
+812,812,Indonesia,Glugur Tengah,,85,Corscot
+813,813,China,Wentugaole,,7884,Artisan
+814,814,Macedonia,Dobrošte,1225,1,Springview
+815,815,Philippines,Barotac Viejo,8611,40025,Crest Line
+816,816,Sweden,Stockholm,117 68,9,Crowley
+817,817,Mexico,San Agustin,36800,46,Hooker
+818,818,Japan,Nishishinminato,934-0099,7474,Hallows
+819,819,Pakistan,Dunyāpur,59111,316,Glendale
+820,820,Indonesia,Langkap,,51963,Laurel
+821,821,Norway,Stavanger,4025,4,Oak Valley
+822,822,Belize,Punta Gorda,,97,Division
+823,823,Croatia,Novalja,53291,69,Ronald Regan
+824,824,Sweden,Osby,283 45,8,Fremont
+825,825,China,Yucun,,4302,Dennis
+826,826,Lithuania,Vilnius,27001,7,Corry
+827,827,Indonesia,Titiakar,,4,5th
+828,828,Sweden,Ystad,271 60,23141,Killdeer
+829,829,France,Lyon,69339 CEDEX 02,6766,Riverside
+830,830,Iran,Bandar-e ‘Asalūyeh,,31276,Arizona
+831,831,Nigeria,Ikot-Ekpene,,730,Autumn Leaf
+832,832,Ukraine,Kosmach,,7044,Ridgeview
+833,833,Palestinian Territory,‘Anīn,,12,Walton
+834,834,China,Huangli,,8,Comanche
+835,835,China,Zhouling,,4612,Manley
+836,836,Russia,Moshenskoye,174450,55,Corry
+837,837,Nigeria,Ikeja,,8,Ronald Regan
+838,838,France,Marseille,13316 CEDEX 15,32223,Pond
+839,839,Indonesia,Sindangraja,,27,Gerald
+840,840,China,Lingtou,,67157,2nd
+841,841,Russia,Velikiy Novgorod,173025,0,Bartillon
+842,842,Indonesia,Koanara,,5,2nd
+843,843,China,Longwei,,71,Mendota
+844,844,Vietnam,Bến Tre,,8,Briar Crest
+845,845,Czech Republic,Horka nad Moravou,783 35,1903,Southridge
+846,846,Portugal,Quinta dos Frades,2420-334,02,Oakridge
+847,847,United States,Charlottesville,22908,2,Drewry
+848,848,China,Dawan,,642,Lawn
+849,849,China,Meiyao,,50,Kedzie
+850,850,China,Litian,,9402,Scott
+851,851,China,Heshi,,264,7th
+852,852,Sweden,Stockholm,102 27,75472,High Crossing
+853,853,Sweden,Strängnäs,645 51,95890,Roth
+854,854,Jamaica,Mocho,,26,Dorton
+855,855,China,Qianjin,,20628,Norway Maple
+856,856,China,Zhaoyuan,,88,Fair Oaks
+857,857,Germany,Hamburg,22453,5248,Dayton
+858,858,Guatemala,San Juan Bautista,10016,3,Londonderry
+859,859,Palestinian Territory,Aţ Ţaybah,,3989,Rusk
+860,860,New Zealand,Kawakawa,0243,46349,Texas
+861,861,Russia,Vyshneye Dolgoye,303773,81,Messerschmidt
+862,862,Egypt,Kafr ash Shaykh,,91,Duke
+863,863,China,Helong,,396,Drewry
+864,864,Bolivia,Eucaliptus,,327,Red Cloud
+865,865,Czech Republic,Malé Svatoňovice,542 34,113,Haas
+866,866,Brazil,Muzambinho,37890-000,9,Norway Maple
+867,867,Indonesia,Lewobelek,,3251,Corben
+868,868,France,Créteil,94009 CEDEX,52474,Sheridan
+869,869,Nepal,Birendranagar,,7,Pawling
+870,870,Panama,Dolega District,,82119,Dayton
+871,871,China,Gelin,,5501,Daystar
+872,872,Indonesia,Pacar,,064,Hintze
+873,873,China,Haiyan,,54818,Maryland
+874,874,China,Heka,,1017,Jana
+875,875,Philippines,San Lucas,4405,8526,Mendota
+876,876,Moldova,Ciorescu,MD-2089,53694,Mosinee
+877,877,China,Laojunmiao,,44,Montana
+878,878,Indonesia,Kapuan,,2,David
+879,879,Greece,Gérakas,,79918,Sage
+880,880,Philippines,Langob,6010,1720,Starling
+881,881,North Korea,Kanggye-si,,6,Pierstorff
+882,882,Philippines,Bautista,2424,28,Lien
+883,883,Czech Republic,Chrastava,463 31,46,Forest Dale
+884,884,Mexico,San Rafael,79783,26794,Green
+885,885,Norway,Oslo,0102,52941,Menomonie
+886,886,Tanzania,Kigoma,,5,Coleman
+887,887,Uruguay,Mariscala,,6470,Oxford
+888,888,China,Lijia,,0,Oakridge
+889,889,Mexico,Plan de Ayala,29601,4,Truax
+890,890,China,Gaoling,,4,La Follette
+891,891,Russia,Gorodishche,403003,4688,Superior
+892,892,Pakistan,Bahāwalnagar,57031,98,Rutledge
+893,893,Indonesia,Panyambungan,,286,Ilene
+894,894,China,Xinwo,,859,Basil
+895,895,Finland,Hollola,15880,36,Holy Cross
+896,896,Portugal,Cabanas,2950-556,69,Packers
+897,897,Iran,Jūybār,,704,Moose
+898,898,Indonesia,Waiwukak,,6178,Meadow Vale
+899,899,Thailand,Aranyaprathet,27120,3,Del Mar
+900,900,Russia,Vygonichi,243371,8296,Farragut
+901,901,Indonesia,Modis,,23,Clyde Gallagher
+902,902,Philippines,Mapalacsiao,2826,3074,Grayhawk
+903,903,China,Yanghu,,22442,Coleman
+904,904,Peru,Chalcos,,6,Holmberg
+905,905,Czech Republic,Veverská Bítýška,664 71,1129,East
+906,906,Indonesia,Pondokkaha Kelod,,1,Hagan
+907,907,Sweden,Örebro,701 86,3,Scoville
+908,908,Poland,Barwałd Górny,34-103,99,Shoshone
+909,909,Bolivia,Quime,,6747,Nevada
+910,910,Philippines,Laylay,4900,34546,Arkansas
+911,911,Japan,Jōetsu,949-1742,216,Haas
+912,912,Philippines,Masarayao,2513,38,Kennedy
+913,913,China,Luokou,,11,Bay
+914,914,Indonesia,Sinarharapan,,15213,Annamark
+915,915,Indonesia,Cilongkrang,,69801,Summerview
+916,916,Vietnam,Thanh Xuân,,79661,Grasskamp
+917,917,Poland,Wręczyca Wielka,42-284,6606,Oak
+918,918,Poland,Krasne,36-007,95952,4th
+919,919,Indonesia,Trucuk,,61,Laurel
+920,920,Colombia,Quimbaya,634027,59639,Green
+921,921,Benin,Dogbo,,90886,Fisk
+922,922,Indonesia,Pliwetan,,15030,Dakota
+923,923,China,Zhongdong,,7200,Loomis
+924,924,Indonesia,Mangli,,50,Pearson
+925,925,Russia,Mel’nikovo,636132,9664,Susan
+926,926,China,Dasha,,9877,Hollow Ridge
+927,927,Brazil,Jacaraú,58278-000,6423,Golden Leaf
+928,928,Indonesia,Rowotengah,,118,Bay
+929,929,Indonesia,Rancaseneng,,858,Longview
+930,930,China,Zhongshangang,,945,Dahle
+931,931,China,Dongsheng,,647,Harper
+932,932,Indonesia,Muyaka,,983,Mesta
+933,933,Pakistan,Mehrābpur,79051,1,Grasskamp
+934,934,Philippines,Bulog,2419,7911,West
+935,935,Czech Republic,Kralice na Hané,798 12,7,Lakewood
+936,936,Paraguay,Colonia Neuland,,46437,Waywood
+937,937,Yemen,Al Munīrah,,767,Eagle Crest
+938,938,Sudan,El Fasher,,96092,Russell
+939,939,Latvia,Jūrmala,,5579,Hazelcrest
+940,940,France,Roissy Charles-de-Gaulle,95959 CEDEX 2,7437,Browning
+941,941,Brazil,Mongaguá,11730-000,026,Union
+942,942,China,Zhu’ao,,2,Browning
+943,943,Indonesia,Cikiray,,76,Fisk
+944,944,Sweden,Laholm,312 31,19227,Fuller
+945,945,Poland,Miejsce Piastowe,38-430,1,Blue Bill Park
+946,946,China,Tangtu,,01946,Stoughton
+947,947,Poland,Krzczonów,32-435,8,Hagan
+948,948,Greece,Sidirókastro,,7,Summerview
+949,949,China,Dongjiang Matoukou,,597,Bultman
+950,950,Togo,Sotouboua,,7903,Cordelia
+951,951,Russia,Yegorlykskaya,347664,10,Forest
+952,952,Russia,Nogliki,632498,1,Talmadge
+953,953,Poland,Mierzęcice,42-460,9,Esker
+954,954,Russia,Zhankhoteko,361524,65108,Everett
+955,955,Vietnam,Thị Trấn Triệu Sơn,,710,Moose
+956,956,Brazil,Coronel Vivida,85550-000,081,Jackson
+957,957,Kuwait,Salwá,,288,Moose
+958,958,Canada,Kirkland,H9J,163,Caliangt
+959,959,Ukraine,Vyshchetarasivka,,562,Rigney
+960,960,Philippines,Tabonoc,6414,4755,Ridge Oak
+961,961,China,Jitan,,11171,Oakridge
+962,962,Russia,Kil’mez’,613570,08483,Banding
+963,963,Albania,Gurra e Vogël,,4,Oak
+964,964,Indonesia,Wahawaha,,393,Warner
+965,965,Iran,Eqlīd,,73,Kennedy
+966,966,Sweden,Saltsjöbaden,133 34,8038,Eliot
+967,967,Latvia,Kocēni,,2,Mendota
+968,968,Peru,Pucyura,,63353,Shopko
+969,969,United States,Tallahassee,32309,5,Lien
+970,970,Democratic Republic of the Congo,Uvira,,75439,Raven
+971,971,Philippines,Buracan,4421,0745,Onsgard
+972,972,Brazil,Visconde do Rio Branco,36520-000,35,Talmadge
+973,973,Kuwait,Janūb as Surrah,,96942,Duke
+974,974,Germany,Dresden,01462,4,Florence
+975,975,Argentina,Cruz Alta,2189,79,Almo
+976,976,China,Donghe,,309,Novick
+977,977,Philippines,Caticugan,6219,6351,Northridge
+978,978,Nigeria,Kaiama,,2,Eagle Crest
+979,979,Philippines,Tabiauan,7024,4827,Bayside
+980,980,Indonesia,Puncakmanis,,0,Park Meadow
+981,981,Democratic Republic of the Congo,Likasi,,31,Muir
+982,982,China,Woshui,,06,Glendale
+983,983,China,Jieyang,,480,Hintze
+984,984,United States,Atlanta,30351,02,Eastwood
+985,985,Sweden,Vänersborg,462 73,639,Northport
+986,986,Ecuador,La Maná,,43,Menomonie
+987,987,Kazakhstan,Turkestan,,673,Cherokee
+988,988,Russia,Kosaya Gora,303167,56,Kingsford
+989,989,China,Zhoujiang,,4,Moose
+990,990,Iraq,Nāḩīyat Saddat al Hindīyah,,9496,Crest Line
+991,991,United States,Chicago,60652,679,Elka
+992,992,China,Ganquan,,2760,Evergreen
+993,993,Portugal,Serra D'El Rei,2525-805,4,Hollow Ridge
+994,994,China,Huangmu,,501,Everett
+995,995,Vanuatu,Isangel,,36,Shopko
+996,996,Brazil,Guaxupé,37800-000,09956,Glacier Hill
+997,997,Indonesia,Cibeureum Kidul,,966,Sunbrook
+998,998,Ireland,Fairview,D17,1,Shelley
+999,999,France,Vincennes,94685 CEDEX,20973,Vera
+1000,1000,Russia,Volot,175100,88,Warbler
