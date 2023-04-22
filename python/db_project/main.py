@@ -15,10 +15,8 @@ credential_data = data.get_credential_data()
 # for data in contact_data:
 #     database.insert_contact(data)
 
-for data in address_data:
-    # print(data)
-    # break
-    database.insert_address(data)
+# for data in address_data:
+#     database.insert_address(data)
 
 # for data in social_data:
 #     database.insert_social_info(data)
