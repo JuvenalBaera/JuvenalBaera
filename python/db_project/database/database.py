@@ -17,6 +17,14 @@ def connetion():
     return conn
 
 
+def query_ddl(sql):
+    conn = connetion()
+    if conn != None:
+        cursor = conn.cursor()
+        cursor.execute(sql)
+        return cursor.fetchall()
+    return None
+
 def query_dml(conn, sql, data):
     if conn != None:
         cursor = conn.cursor()

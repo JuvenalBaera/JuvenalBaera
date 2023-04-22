@@ -1,5 +1,6 @@
 from dataRead import data
 from database import database
+from database import inputclass
 
 personal_data = data.get_personal_data()
 contact_data = data.get_contact_data()
@@ -8,6 +9,14 @@ social_data = data.get_social_info_data()
 bank_data = data.get_bank_data()
 company_data = data.get_company_data()
 credential_data = data.get_credential_data()
+
+# d = inputclass.Date(19, 6, 2001)
+# d.showDate()
+
+p = inputclass.Personal("Juvenal", "A", "M", 19, 21, 2001)
+p.showPerson()
+# p.showDate()
+
 
 # for data in personal_data:
 #     database.insert_personal(data)
