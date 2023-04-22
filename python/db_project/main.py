@@ -13,8 +13,10 @@ credential_data = data.get_credential_data()
 # d = inputclass.Date(19, 6, 2001)
 # d.showDate()
 
-p = inputclass.Personal("Juvenal", "A", "M", 19, 21, 2001)
-p.showPerson()
+p = inputclass.Personal("Juvenal", "Baera", "M", 29, 2, 2001)
+c = inputclass.Contact(p, "juvenal@gmail.com", "123-456-7890")
+c.showContac()
+# p.showPerson()
 # p.showDate()
 
 

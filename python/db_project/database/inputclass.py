@@ -1,34 +1,34 @@
 from database import database
 
 class Date:
-    def __init__(self, d, m, y):
+    def __init__(self, day, month, year):
         self._day = 0
         self._month = 0
         self._year = 0
-        self._dob = self.setDate(d, m, y)
+        self._dob = self.setDate(day, month, year)
 
     @classmethod
-    def bixesto(year):
-        return (year % 4 == 0 or year % 400 == 0 ) and (year % 100 != 0)
+    def bixesto(cls, year):
+        return bool((year % 4 == 0 and year % 100 != 0) or year % 400 == 0)
     
-    def setDate(self, d, m, y):
+    def setDate(self, day, month, year):
         yesNo = False
-        if d >= 1 and d <= 31:
-            if m == 1 or d == 3 or d == 5 or d == 7 or d == 8 or d == 10 or d == 12:
+        if day >= 1 and day <= 31:
+            if month in [1, 3, 5, 7, 8, 10, 12]:
                 yesNo = True
-            elif m == 2:
-                if Date.bixesto(y) and d <= 29:
+            elif month == 2:
+                if Date.bixesto(year) and day <= 29:
                     yesNo = True
-                elif d <= 28:
+                elif day <= 28:
                     yesNo = True 
-            elif d <= 30:
+            elif day <= 30:
                 yesNo = True
 
         if yesNo:
-            self._db = f"{y:04}/{m:02}/{d:02}"
-            self._day = int(d)
-            self._month = int(m)
-            self._year = int(y)
+            self._db = f"{year:04}/{month:02}/{day:02}"
+            self._day = int(day)
+            self._month = int(month)
+            self._year = int(year)
         else:
             self._dob = None
             print("Invalid date")
@@ -54,22 +54,57 @@ class Date:
             print("Unknown")
 
 
-class Personal(Date):
-    def __init__(self, fname, lname, gender, day, month, year):
-        super().__init__(day, month, year)
-        self._fname = "Unknown"
-        self._lname = "Unknown"
-        self._gender = "Unknown"
-        self._id = "Unknown"
-        id = database.query_ddl("SELECT MAX(personal_id) AS id FROM personal")
-        if id != None:
-            self.setName(fname, lname)
-            self.setGender(gender)
-            if self._fname != "Unknown":
-                self._id = id[0][0] + 1
-        else:
-            print("Erro on database")
+class Contact:
+    def __init__(self, email, phone):
+        self._email = email
+        self._phone = phone
+    
+    def setEmail(self, email):
+        if "@" in email:
+            self._email = email
+    
+    def setPhone(self, phone):
+        if "-" in phone:
+            self._phone = phone
+    
+    def showContac(self):
+        self._person.showPerson()
+        print(f"Email........: {self._email}")
+        print(f"Phone number.: {self._phone}")
 
+
+class Address:
+    def __init__(self, city, postal_code, street_nr, street_name):
+        self.city = city
+        self.postal_code = postal_code
+        self._street_number = street_nr
+        self._street_name = street_name
+
+
+
+class Social:
+    pass
+
+class Bank:
+    pass
+
+
+class Company:
+    pass
+
+
+class Credential:
+    pass
+
+
+class Person:
+    def __init__(self, fname, lname, gender):
+        self._fname = None
+        self._lname = None
+        self._gender = None
+        self.setName(fname, lname)
+        self.setGender(gender)
+    
     def setName(self, fname, lname):
         if len(fname) > 2 and len(lname) > 2:
             self._fname = fname
@@ -79,15 +114,29 @@ class Personal(Date):
 
     def setGender(self, gender):
         if gender in ("MmFf"):
-            if self._fname != "Unknown":
+            if self._fname != None:
                 self._gender = gender
             else:
                 print("Unknown person cannot have gender")
         else:
             print("Invalid Gender")
 
+
+class PersonalInfo():
+    def __init__(self, person: Person, dob: Date, contact: Contact):
+        self._id = None
+        id = database.query_ddl("SELECT MAX(personal_id) AS id FROM personal")
+        if id != None:
+            if self._fname != None:
+                self._id = id[0][0] + 1
+                self._person = person
+                self._dob = dob
+                self._contact = contact
+        else:
+            print("Erro on database")
+
     def showPerson(self):
-        if self._fname != "Unknown":
+        if self._fname != None:
             print(f"Id...........: {self._id}")
             print(f"Nome.........: {self._fname} {self._lname}")
             print(f"Date of Birth: ", end="")
@@ -101,26 +150,3 @@ class Personal(Date):
         else:
             print("Unkown person")
 
-
-class Contact:
-    pass
-
-
-class Address:
-    pass
-
-
-class Social:
-    pass
-
-
-class Bank:
-    pass
-
-
-class Company:
-    pass
-
-
-class Credential:
-    pass
