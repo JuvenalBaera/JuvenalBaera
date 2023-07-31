@@ -65,11 +65,8 @@ int main(){
                         newLine();
                     }
                 }
-                else{
-                    yellowColor();
-                    std::cout << LISTBOOK_EMPTY_MSG;
-                    resetColor();
-                }
+                else
+                    showMessageSuccess(LISTBOOK_EMPTY_MSG);
             break;
             case OPTIONS::SEARCH_CONTACT:
                 std::cout << FOLLOWING_INFO_MSG;
@@ -77,11 +74,8 @@ int main(){
                 phone = readPhoneNumber();
                 c = phoneBook.searchContactByPhone(phone);
                 newLine();
-                if(c == NULL){
-                    redColor();
-                    std::cout << PHONE_NOT_EXIST;
-                    resetColor();
-                }
+                if(c == NULL)
+                    showMessageError(PHONE_NOT_EXIST);
                 else
                     printContact(*c);
             break;
@@ -93,9 +87,7 @@ int main(){
                 c = phoneBook.searchContactByPhone(phone);
                 newLine();
                 if(c == NULL){
-                    redColor();
-                    std::cout << PHONE_NOT_EXIST;
-                    resetColor();
+                    showMessageError(PHONE_NOT_EXIST);
                 }
                 else{
                     do{
