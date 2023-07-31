@@ -3,14 +3,33 @@
 
 #include <iostream>
 
-enum OPTIONS{
+enum MAIN_OPTIONS{
     EXIT,
     ADD_CONTACT,
     VIEW_ALL_CONTACTS,
     SEARCH_CONTACT,
+    TOTAL_CONTACTS
+};
+
+enum CONTACT_OPTIONS{
+    BACK_CONTACT,
+    VIEW_CONTACT,
     EDIT_CONTACT,
-    DELETE_CONTACT,
-    TOTAL_CONTACT
+    DELETE_CONTCACT
+};
+
+enum EDIT_OPTIONS{
+    BACK_EDIT,
+    FNAME_EDIT,
+    LNAME_EDIT,
+    PHONE_EDIT,
+    EMAIL_EDIT,
+    VIEW_CONTACT_EDIT
+};
+
+enum YES_NO_OPTIONS{
+    no,
+    yes
 };
 
 #define RED_COLOR "\033[1;31m"

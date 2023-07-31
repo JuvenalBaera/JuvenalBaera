@@ -26,6 +26,7 @@ Contact* AddressBook::searchContactByPhone(std::string phone){
 
 void AddressBook::deleteContact(std::string phone){
     myContacts.erase(phone);
+    AddressBook::total_contact--;
 }
 
 unsigned int AddressBook::getTotalContact() {
