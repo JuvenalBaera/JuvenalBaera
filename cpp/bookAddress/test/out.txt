@@ -1,0 +1,33 @@
+
+[1;34m0	-	Exit
+1	-	Add contact
+2	-	view all contacts
+3	-	Search contact
+4	-	Edit contact
+5	-	Detele contact
+6	-	Total contacts
+[0m
+Choose an option: 
+Contacts: 0
+
+[1;34m0	-	Exit
+1	-	Add contact
+2	-	view all contacts
+3	-	Search contact
+4	-	Edit contact
+5	-	Detele contact
+6	-	Total contacts
+[0m
+Choose an option: 
+[1;33mThere is no contact in book list
+[0m
+[1;34m0	-	Exit
+1	-	Add contact
+2	-	view all contacts
+3	-	Search contact
+4	-	Edit contact
+5	-	Detele contact
+6	-	Total contacts
+[0m
+Choose an option: 
+Thank you!
