@@ -8,17 +8,6 @@
 #include "classes/addressbook.h"
 
 
-enum OPTIONS{
-    EXIT,
-    ADD_CONTACT,
-    VIEW_ALL_CONTACTS,
-    SEARCH_CONTACT,
-    EDIT_CONTACT,
-    DELETE_CONTACT,
-    TOTAL_CONTACT
-};
-
-
 // ############### PROTOYPES ###############
 void mainMenu();
 std::string readPhoneNumber();

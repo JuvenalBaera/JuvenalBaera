@@ -3,6 +3,16 @@
 
 #include <iostream>
 
+enum OPTIONS{
+    EXIT,
+    ADD_CONTACT,
+    VIEW_ALL_CONTACTS,
+    SEARCH_CONTACT,
+    EDIT_CONTACT,
+    DELETE_CONTACT,
+    TOTAL_CONTACT
+};
+
 #define RED_COLOR "\033[1;31m"
 #define GREEN_COLOR "\033[1;32m"
 #define YELLOW_COLOR "\033[1;33m"
