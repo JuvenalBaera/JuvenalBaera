@@ -1,5 +1,5 @@
-#ifndef READ_H_
-#define READ_H_
+#ifndef READCMD_H_
+#define READCMD_H_
 
 #include <iostream>
 #include "./../classes/contact.h"

@@ -1,4 +1,4 @@
-#include "read.h"
+#include "readcmd.h"
 
 int readOption(){
     int option;

@@ -1,4 +1,4 @@
-#include "write.h"
+#include "writecmd.h"
 
 void printContact(Contact c){
     greenColor();

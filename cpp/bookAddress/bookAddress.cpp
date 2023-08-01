@@ -8,8 +8,8 @@
 #include "classes/contact.h"
 #include "classes/addressbook.h"
 
-#include "readWrite/read.h"
-#include "readWrite/write.h"
+#include "readWrite/readcmd.h"
+#include "readWrite/writecmd.h"
 
 #include "menu.h"
 
