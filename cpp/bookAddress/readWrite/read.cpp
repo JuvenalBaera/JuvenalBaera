@@ -3,7 +3,6 @@
 int readOption(){
     int option;
     option = readInteger(CHOOSE_OPTION_MSG);
-    newLine();
     return option;
 }
 

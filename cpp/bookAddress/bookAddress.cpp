@@ -11,6 +11,7 @@
 #include "readWrite/read.h"
 #include "readWrite/write.h"
 
+#include "menu.h"
 
 int main(){
     AddressBook phoneBook;
@@ -25,7 +26,6 @@ int main(){
         newLine();
         mainMenu();
         option = readOption();
-
         switch(option){
             case MAIN_OPTIONS::EXIT:
                 std::cout << EXIT_MSG;
@@ -36,11 +36,11 @@ int main(){
                     showMessageSuccess(CONTACT_SUCESS_MSG);
                 else
                     showMessageError(CONTACT_FAIL_MSG);
-                newLine();
             break;
             case MAIN_OPTIONS::VIEW_ALL_CONTACTS:
                 allcontacts = phoneBook.getAllContacts();
                 if(allcontacts.size() > 0){
+                    newLine();
                     for(Contact c : allcontacts){
                         printContact(c);
                         newLine();
@@ -65,8 +65,12 @@ int main(){
 
                             switch(optionInside){
                                 case CONTACT_OPTIONS::BACK_CONTACT: break;
-                                case CONTACT_OPTIONS::VIEW_CONTACT: printContact(*c); break;
+                                case CONTACT_OPTIONS::VIEW_CONTACT:
+                                    newLine();
+                                    printContact(*c);
+                                break;
                                 case CONTACT_OPTIONS::EDIT_CONTACT:
+                                    newLine();
                                     do{
                                         changeMenu();
                                         option =  readOption();
@@ -102,6 +106,7 @@ int main(){
                                                 showMessageSuccess(EMAIL_UPDATE_MSG);
                                             break;
                                             case EDIT_OPTIONS::VIEW_CONTACT_EDIT:
+                                                newLine();
                                                 printContact(*c);
                                                 break;
                                             default:
@@ -112,6 +117,7 @@ int main(){
                                     option = -1;
                                 break;
                                 case CONTACT_OPTIONS::DELETE_CONTCACT:
+                                    newLine();
                                     do{
                                         yesNoMenu();
                                         optionInside = readOption();
@@ -135,7 +141,6 @@ int main(){
                 yellowColor();
                 printf("%s: %ld\n", TOTAL_CONTACT_MSG, AddressBook::getTotalContact());
                 resetColor();
-                newLine();
             break;
             default:
                 showMessageError(INVALID_OPTION_MSG);
