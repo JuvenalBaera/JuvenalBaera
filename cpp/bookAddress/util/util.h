@@ -28,8 +28,8 @@ enum EDIT_OPTIONS{
 };
 
 enum YES_NO_OPTIONS{
-    no,
-    yes
+    yes = 1,
+    no
 };
 
 #define RED_COLOR "\033[1;31m"
@@ -39,7 +39,8 @@ enum YES_NO_OPTIONS{
 #define RESET_COLOR "\033[0m"
 
 void newLine();
-
+std::string readString();
+int readInteger(std::string msg);
 void greenColor();
 void redColor();
 void yellowColor();

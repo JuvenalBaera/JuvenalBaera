@@ -10,7 +10,11 @@
 
 // ############### PROTOYPES ###############
 void mainMenu();
+int readOption();
+std::string readFname();
+std::string readLname();
 std::string readPhoneNumber();
+std::string readEmail();
 Contact readContact();
 void printContact(Contact c);
 
@@ -27,9 +31,7 @@ int main(){
     do{
         newLine();
         mainMenu();
-        std::cout << OPT_CHOOSE_IN_MSG;
-        std::cin >> option;
-        newLine();
+        option = readOption();
 
         switch(option){
             case MAIN_OPTIONS::EXIT:
@@ -60,7 +62,6 @@ int main(){
             case MAIN_OPTIONS::SEARCH_CONTACT:
                 if(AddressBook::getTotalContact() > 0){
                     std::cout << FOLLOWING_INFO_MSG;
-                    std::cout << PHONE_INPUT_MSG;
                     phone = readPhoneNumber();
                     c = phoneBook.searchContactByPhone(phone);
                     newLine();
@@ -77,9 +78,7 @@ int main(){
                             std::cout << CONTACT_OPTIONS::DELETE_CONTCACT << "\t-\tDetele contact\n";
                             resetColor();
 
-                            std::cout << "\nChoose an option: ";
-                            std::cin >> optionInside;
-                            newLine();
+                            optionInside = readOption();
 
                             switch(optionInside){
                                 case CONTACT_OPTIONS::BACK_CONTACT: break;
@@ -96,29 +95,24 @@ int main(){
                                         std::cout << EDIT_OPTIONS::VIEW_CONTACT_EDIT << "\t-\tView contact\n";
                                         resetColor();
 
-                                        std::cout << "\nChoose an option: ";
-                                        std::cin >> option;
-                                        newLine();
+                                        option =  readOption();
 
                                         switch(option){
                                             case EDIT_OPTIONS::BACK_EDIT: break;
                                             case EDIT_OPTIONS::FNAME_EDIT:
                                                 std::cout << FOLLOWING_INFO_MSG;
-                                                std::cout << FNAME_INPUT_MSG;
-                                                std::getline(std::cin >> std::ws, name);
+                                                name = readFname();
                                                 c->setFirstName(name);
                                                 showMessageSuccess("\nFirst name successfully updated\n");
                                             break;
                                             case EDIT_OPTIONS::LNAME_EDIT:
                                                 std::cout << FOLLOWING_INFO_MSG;
-                                                std::cout << LNAME_INPUT_MSG;
-                                                std::getline(std::cin >> std::ws, name);
+                                                name = readLname();
                                                 c->setLastName(name);
                                                 showMessageSuccess("\nLast name successfully updated\n");
                                             break;
                                             case EDIT_OPTIONS::PHONE_EDIT:
-                                            std::cout << FOLLOWING_INFO_MSG;
-                                                std::cout << PHONE_INPUT_MSG;
+                                                std::cout << FOLLOWING_INFO_MSG;
                                                 phone = readPhoneNumber();
                                                 if(phoneBook.searchContactByPhone(phone) == NULL){
                                                     c->setPhone(phone);
@@ -129,8 +123,7 @@ int main(){
                                             break;
                                             case EDIT_OPTIONS::EMAIL_EDIT:
                                                 std::cout << FOLLOWING_INFO_MSG;
-                                                std::cout << EMAIL_INPUT_MSG;
-                                                std::getline(std::cin >> std::ws, name);
+                                                name = readEmail();
                                                 c->setEmail(name);
                                                 showMessageSuccess("\nEmail successfully updated\n");
                                             break;
@@ -147,14 +140,13 @@ int main(){
                                 case CONTACT_OPTIONS::DELETE_CONTCACT:
                                     do{
                                         std::cout << "Do you want to proceed?\n\n";
-                                        std::cout << "1\t-\tYes\n";
-                                        std::cout << "2\t-\tNo\n\n";
-                                        std::cout << "Choose an option: ";
-                                        std::cin >> optionInside;
+                                        std::cout << YES_NO_OPTIONS::yes << "\t-\tYes\n";
+                                        std::cout << YES_NO_OPTIONS::no << "\t-\tNo\n";
+                                        optionInside = readOption();
                                     }while(optionInside < 1 || optionInside > 2);
                                     if(optionInside == 1){
                                         phoneBook.deleteContact(phone);
-                                        showMessageSuccess("\nPhone number successfully deleted\n");
+                                        showMessageSuccess("Phone number successfully deleted\n");
                                         optionInside = 0;
                                     }
                                 break;
@@ -192,11 +184,38 @@ void mainMenu(){
     resetColor();
 }
 
+int readOption(){
+    int option;
+    option = readInteger(CHOOSE_OPTION_MSG);
+    newLine();
+    return option;
+}
+
+std::string readFname(){
+    std::string fname;
+    std::cout << FNAME_INPUT_MSG;
+    fname = readString();
+    return fname;
+}
+std::string readLname(){
+    std::string lname;
+    std::cout << LNAME_INPUT_MSG;
+    lname = readString();
+    return lname;
+}
+std::string readEmail(){
+    std::string lname;
+    std::cout << EMAIL_INPUT_MSG;
+    lname = readString();
+    return lname;
+}
+
 std::string readPhoneNumber(){
     std::string phone;
     int sizeLen;
 
-    std::getline(std::cin >> std::ws, phone);
+    std::cout << PHONE_INPUT_MSG;
+    phone = readString();
 
     sizeLen = phone.length();
     if(sizeLen != 9){
@@ -211,18 +230,10 @@ Contact readContact(){
     std::string fname, lname, phone, email;
 
     std::cout << FOLLOWING_INFO_MSG;
-
-    std::cout << FNAME_INPUT_MSG;
-    std::getline(std::cin >> std::ws, fname);
-
-    std::cout << LNAME_INPUT_MSG;
-    std::getline(std::cin >> std::ws, lname);
-
-    std::cout << PHONE_INPUT_MSG;
+    fname = readFname();
+    lname = readLname();
     phone = readPhoneNumber();
-
-    std::cout << EMAIL_INPUT_MSG;
-    std::getline(std::cin >> std::ws, email);
+    email = readEmail();
 
     c.setFullName(fname, lname);
     c.setPhone(phone);

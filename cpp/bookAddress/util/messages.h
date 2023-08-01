@@ -3,7 +3,7 @@
 #include <iostream>
 
 // ############### MAIN MESSAGES ###############
-#define OPT_CHOOSE_IN_MSG "\nChoose an option: "
+#define CHOOSE_OPTION_MSG "\nChoose an option: "
 #define EXIT_MSG "Thank you!\n"
 #define INVALID_OPTION_MSG "Invalid option\n"
 
@@ -14,7 +14,6 @@
 
 // ############### INPUT MESSAGES ###############
 #define FOLLOWING_INFO_MSG "ENTER THE FOLLOWING INFO\n"
-
 #define FNAME_INPUT_MSG "\tFIRST NAME...: "
 #define LNAME_INPUT_MSG "\tLAST NAME....: "
 #define PHONE_INPUT_MSG "\tPHONE NUMBER.: "
