@@ -47,6 +47,11 @@ void yellowColor();
 void blueColor();
 void resetColor();
 
+void mainMenu();
+void contactMenu();
+void changeMenu();
+void yesNoMenu();
+
 void showMessageSuccess(std::string msg);
 void showMessageError(std::string msg);
 #endif
