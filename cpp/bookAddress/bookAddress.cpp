@@ -11,8 +11,8 @@
 #include "readWrite/readcmd.h"
 #include "readWrite/writecmd.h"
 
-#include "file/readFile.h"
-#include "file/writeFile.h"
+#include "database/readDb.h"
+#include "database/writeDb.h"
 
 #include "menu.h"
 
@@ -22,11 +22,10 @@ int main(){
     Contact *c = nullptr;
     int option, optionInside;
     std::string phone, name;
-    std::string database = "data/data.csv";
 
     system("cls");
 
-    readFile(&phoneBook, database);
+    readFromDatabase(&phoneBook, DB_NAME);
 
     do{
         newLine();

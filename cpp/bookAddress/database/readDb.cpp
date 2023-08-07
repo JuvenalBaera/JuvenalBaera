@@ -1,6 +1,6 @@
-#include "readFile.h"
+#include "readDb.h"
 
-void readFile(AddressBook *bookAddr,std::string filename){
+void readFromDatabase(AddressBook *bookAddr,std::string filename){
     std::ifstream read;
     std::string line;
     Contact c;
