@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    color: white;
+    text-align: center;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main{
+    margin: 20px auto;
+    width: 300px;
+    height: 400px;
+
+    background-color: #5555bec7;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+h1{
+    padding: 40px 0;
+    text-align: center;
+}
+
+div {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+input[type="email"], input[type="password"]{
+    display: block;
+    font-size: 18px;
+    width: 270px;
+    margin: 10px 0;
+    background-color: #5555bec7;
+    background-color: inherit;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+p.lbl, div.remForg{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+img{width: 20px;}
+
+div.remForg{
+    margin-top: -5px;
+    font-size: 14px;
+}
+
+div.remForg > span {margin: 10px auto;}
+
+button{
+    display: inline-block;
+    margin: 20px 20px 10px 15px;
+    border: none;
+    border-radius: 10px;
+    width: 270px;
+    height: 40px;
+    font-size: 20px;
+}
+
+button:hover{
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    background-image: linear-gradient(to right, #ff0000b7, #0000ffb7);
+    scroll-behavior: smooth;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #d61010b7;
+}
+input[type="checkbox"]:hover{
+    cursor: pointer;
+}
