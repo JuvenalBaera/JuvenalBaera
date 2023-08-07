@@ -12,7 +12,7 @@ class Contact{
 
     public:
         Contact();
-        Contact(std::string fnname, std::string lname, std::string phone, std::string email);
+        Contact(std::string fname, std::string lname, std::string phone, std::string email);
 
         // ############### GETTERS ###############
         std::string getFirstName();
@@ -29,6 +29,7 @@ class Contact{
         void setFullName(std::string fname, std::string lname);
         void setPhone(std::string phone);
         void setEmail(std::string email);
+        void setAllData(std::string fname, std::string lname, std::string phone, std::string email);
 };
 
 #endif

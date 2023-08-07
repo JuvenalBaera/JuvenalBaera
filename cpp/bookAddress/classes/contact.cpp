@@ -2,7 +2,7 @@
 #include "contact.h"
 
 Contact::Contact(){}
-Contact::Contact(std::string fnname, std::string lname, std::string phone, std::string email){
+Contact::Contact(std::string fname, std::string lname, std::string phone, std::string email){
     this->fname = fname;
     this->lname = lname;
     this->phone = phone;
@@ -31,5 +31,10 @@ void Contact::setLastName(std::string lname){this->lname = lname;}
 void Contact::setFullName(std::string fname, std::string lname){
     this->setFirstName(fname);
     this->setLastName(lname);
+}
+void Contact::setAllData(std::string fname, std::string lname, std::string phone, std::string email){
+    this->setFullName(fname, lname);
+    this->setPhone(phone);
+    this->setEmail(email);
 }
 

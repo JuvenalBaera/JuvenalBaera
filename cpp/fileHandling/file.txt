@@ -1,0 +1,6 @@
+This is an example
+of writting on text file
+So now, i want to try something else
+Roses are red,
+violet are blue,
+budy budy budy
