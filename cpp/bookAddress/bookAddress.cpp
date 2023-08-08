@@ -34,6 +34,7 @@ int main(){
         switch(option){
             case MAIN_OPTIONS::EXIT:
                 std::cout << EXIT_MSG;
+                writeToDatabase(phoneBook.getAllContacts(), DB_NAME);
                 exit(EXIT_SUCCESS);
             break;
             case MAIN_OPTIONS::ADD_CONTACT:
@@ -151,5 +152,6 @@ int main(){
                 showMessageError(INVALID_OPTION_MSG);
         }
     }while(option != 0);
+
     return 0;
 }

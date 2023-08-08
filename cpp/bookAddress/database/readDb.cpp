@@ -1,4 +1,5 @@
 #include "readDb.h"
+#include "../util/messages.h"
 
 void readFromDatabase(AddressBook *bookAddr,std::string filename){
     std::ifstream read;
@@ -16,6 +17,6 @@ void readFromDatabase(AddressBook *bookAddr,std::string filename){
         read.close();
     }
     else{
-        std::cout << "An error occured in openning " << filename << std::endl;
+        std::cout << ERROR_OPEN << filename << std::endl;
     }
 }

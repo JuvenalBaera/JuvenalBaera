@@ -4,7 +4,7 @@
 
 // ############### MAIN MESSAGES ###############
 #define CHOOSE_OPTION_MSG   "\nChoose an option: "
-#define EXIT_MSG            "\nThank you!\n"
+#define EXIT_MSG            "\nTHANK YOU VERY MUCH!\n"
 #define INVALID_OPTION_MSG  "\nInvalid option\n"
 #define TOTAL_CONTACT_MSG   "\nTOTAL OF CONTACTS"
 
@@ -33,5 +33,11 @@
 #define CONTACT_DELETE_MSG  "\nContact successfully deleted\n"
 
 #define LISTBOOK_EMPTY_MSG "\nThere is no contact in book list\n"
+
+// ################# FILE MSG #####################
+#define ERROR_OPEN "An error occured in openning "
+#define NUMBER_ALLOW "\nJust number is allowed\n"
+#define INVALID_EMAIL "\t\tEnter valid email\n"
+#define INVALID_PHONE "\t\tInvalid phone number\n"
 
 #endif

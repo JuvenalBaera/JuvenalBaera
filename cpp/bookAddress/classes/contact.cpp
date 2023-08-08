@@ -22,7 +22,6 @@ std::string Contact::getPhoneFormated(){
     return aux;
 }
 
-
 // ############### SETTERS ###############
 void Contact::setFirstName(std::string fname){this->fname = fname;}
 void Contact::setPhone(std::string phone){this->phone = phone;}
@@ -37,4 +36,3 @@ void Contact::setAllData(std::string fname, std::string lname, std::string phone
     this->setPhone(phone);
     this->setEmail(email);
 }
-

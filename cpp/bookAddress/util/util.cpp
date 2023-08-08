@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string.h>
+
 #include "util.h"
+#include "messages.h"
 
 void newLine(){std::cout << "\n";}
 
@@ -21,7 +23,7 @@ int readInteger(std::string msg){
         for(int i = 0; i < strlen(read); i++){
             if(read[i] < '0' || read[i] > '9'){
                 redColor();
-                std::cout << "\nJust number is allowed\n";
+                std::cout << NUMBER_ALLOW;
                 read[0] = '\0';
                 resetColor();
                 yesNo = true;

@@ -21,17 +21,36 @@ std::string readLname(){
 }
 
 std::string readEmail(){
-    std::string lname;
-    std::cout << EMAIL_INPUT_MSG;
-    lname = readString();
-    return lname;
+    std::string email;
+    do{
+        std::cout << EMAIL_INPUT_MSG;
+        email = readString();
+        if(email.find('@') == -1 || email.find('.') == -1)
+            std::cout << INVALID_EMAIL;
+        else
+            break;
+    }while(1);
+    return email;
 }
 
 std::string readPhoneNumber(){
     std::string phone;
-    int sizeLen;
-    std::cout << PHONE_INPUT_MSG;
-    phone = readString();
+    int sizeLen = 1;
+
+    do{
+        sizeLen = 1;
+        std::cout << PHONE_INPUT_MSG;
+        phone = readString();
+        for(char ch : phone){
+            if(!isdigit(ch)){
+                std::cout << INVALID_PHONE;
+                sizeLen = 0;
+                break;
+            }
+        }
+    }while(sizeLen == 0);
+
+
 
     sizeLen = phone.length();
     if(sizeLen != 9){
