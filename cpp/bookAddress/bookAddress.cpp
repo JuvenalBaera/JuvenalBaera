@@ -16,6 +16,8 @@
 
 #include "menu.h"
 
+void header();
+
 int main(){
     AddressBook phoneBook;
     std::vector<Contact> allcontacts;
@@ -23,6 +25,9 @@ int main(){
     int option, optionInside;
     std::string phone, name;
 
+    system("mkdir data");
+    system("cls");
+    header();
     system("cls");
 
     readFromDatabase(&phoneBook, DB_NAME);
@@ -154,4 +159,18 @@ int main(){
     }while(option != 0);
 
     return 0;
+}
+
+void header(){
+    std::string buffer;
+    std::cout << "=====================================================" << std::endl;
+    std::cout << "\tWELCOME TO MY PROGRAM" << std::endl;
+    std::cout << "\tAUTHOR: JUVENAL BAERA" << std::endl;
+    std::cout << "\tDATE..: AUGUST, 8TH 2023" << std::endl;
+    std::cout << "\tDESCRIPTION: I CREATED THIS PROGRAM " << std::endl;
+    std::cout << "\t\t     TO MANAGE PHONE NUMBERS/CONTACT" << std::endl;
+    std::cout << "\t\t     HOPE YOU'LL LIKE IT" << std::endl;
+    std::cout << "=====================================================" << std::endl;
+    std::cout << "\nPress any key and ENTER to continue." << std::endl;
+    buffer = readString();
 }
