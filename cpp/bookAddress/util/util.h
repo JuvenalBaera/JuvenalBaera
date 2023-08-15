@@ -51,4 +51,7 @@ void resetColor();
 
 void showMessageSuccess(std::string msg);
 void showMessageError(std::string msg);
+template <typename T>
+bool isInRange(T num, T min, T max);
+
 #endif

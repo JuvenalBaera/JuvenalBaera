@@ -1,0 +1,124 @@
+UPDATE contacts SET phone_code =  "(+374)" WHERE country = "Armenia";
+UPDATE contacts SET phone_code =  "(+255)" WHERE country = "Tanzania";
+UPDATE contacts SET phone_code =  "(+258)" WHERE country = "Mozambique";
+UPDATE contacts SET phone_code =  "(+353)" WHERE country = "Ireland";
+UPDATE contacts SET phone_code =  "(+235)" WHERE country = "Chad";
+UPDATE contacts SET phone_code =  "(+027)" WHERE country = "South Africa";
+UPDATE contacts SET phone_code =  "(+351)" WHERE country = "Portugal";
+UPDATE contacts SET phone_code =  "(+092)" WHERE country = "Pakistan";
+UPDATE contacts SET phone_code =  "(+052)" WHERE country = "Mexico";
+UPDATE contacts SET phone_code =  "(+055)" WHERE country = "Brazil";
+UPDATE contacts SET phone_code =  "(+057)" WHERE country = "Colombia";
+UPDATE contacts SET phone_code =  "(+380)" WHERE country = "Ukraine";
+UPDATE contacts SET phone_code =  "(+995)" WHERE country = "Georgia"
+UPDATE contacts SET phone_code =  "(+033)" WHERE country = "France"
+UPDATE contacts SET phone_code =  "(+063)" WHERE country = "Philippines";
+UPDATE contacts SET phone_code =  "(+007)" WHERE country = "Russia";
+UPDATE contacts SET phone_code =  "(+355)" WHERE country = "Albania";
+UPDATE contacts SET phone_code =  "(+048)" WHERE country = "Poland";
+UPDATE contacts SET phone_code =  "(+086)" WHERE country = "China";
+UPDATE contacts SET phone_code =  "(+358)" WHERE country = "Finland";
+UPDATE contacts SET phone_code =  "(+591)" WHERE country = "Bolivia";
+UPDATE contacts SET phone_code =  "(+030)" WHERE country = "Greece";
+
+UPDATE contacts SET phone_code =  "(+049)" WHERE country = "Germany";
+UPDATE contacts SET phone_code =  "(+020)" WHERE country = "Egypt";
+UPDATE contacts SET phone_code =  "(+371)" WHERE country = "Latvia";
+UPDATE contacts SET phone_code =  "(+234)" WHERE country = "Nigeria";
+UPDATE contacts SET phone_code =  "(+058)" WHERE country = "Venezuela";
+UPDATE contacts SET phone_code =  "(+066)" WHERE country = "Thailand";
+UPDATE contacts SET phone_code =  "(+257)" WHERE country = "Burundi";
+UPDATE contacts SET phone_code =  "(+252)" WHERE country = "Somalia";
+UPDATE contacts SET phone_code =  "(+506)" WHERE country = "Costa Rica";
+UPDATE contacts SET phone_code =  "(+502)" WHERE country = "Guatemala";
+UPDATE contacts SET phone_code =  "(+230)" WHERE country = "Mauritius";
+UPDATE contacts SET phone_code =  "(+031)" WHERE country = "Netherlands";
+
+UPDATE contacts SET phone_code =  "(+044)" WHERE country = "United Kingdom";
+UPDATE contacts SET phone_code =  "(+976)" WHERE country = "Mongolia";
+UPDATE contacts SET phone_code =  "(+352)" WHERE country = "Luxembourg";
+UPDATE contacts SET phone_code =  "(+420)" WHERE country = "Czech Republic";
+UPDATE contacts SET phone_code =  "(+964)" WHERE country = "Iraq";
+UPDATE contacts SET phone_code =  "(+354)" WHERE country = "Iceland";
+UPDATE contacts SET phone_code =  "(+098)" WHERE country = "Iran";
+UPDATE contacts SET phone_code =  "(+001)" WHERE country = "United States";
+UPDATE contacts SET phone_code =  "(+269)" WHERE country = "Comoros";
+UPDATE contacts SET phone_code =  "(+084)" WHERE country = "Vietnam";
+UPDATE contacts SET phone_code =  "(+670)" WHERE country = "East Timor";
+UPDATE contacts SET phone_code =  "(+677)" WHERE country = "Solomon Islands";
+UPDATE contacts SET phone_code =  "(+691)" WHERE country = "Micronesia";
+UPDATE contacts SET phone_code =  "(+375)" WHERE country = "Belarus";
+UPDATE contacts SET phone_code =  "(+267)" WHERE country = "Botswana";
+UPDATE contacts SET phone_code =  "(+1-849)" WHERE country = "Dominican Republic";
+UPDATE contacts SET phone_code =  "(+254)" WHERE country = "Kenya";
+UPDATE contacts SET phone_code =  "(+93)" WHERE country = "Afghanistan";
+UPDATE contacts SET phone_code =  "(+53)" WHERE country = "Cuba";
+UPDATE contacts SET phone_code =  "(+387)" WHERE country = "Bosnia" OR country =  "Herzegovina";
+UPDATE contacts SET phone_code =  "(+967)" WHERE country = "Yemen";
+
+
+UPDATE contacts SET phone_code =  "(+503)" WHERE country = "El Salvador";
+UPDATE contacts SET phone_code =  "(+767)" WHERE country = "Dominica";
+UPDATE contacts SET phone_code =  "(+441)" WHERE country = "Bermuda";
+UPDATE contacts SET phone_code =  "(+094)" WHERE country = "Sri Lanka";
+UPDATE contacts SET phone_code =  "(+359)" WHERE country = "Bulgaria";
+UPDATE contacts SET phone_code =  "(+41)" WHERE country = "Switzerland";
+UPDATE contacts SET phone_code =  "(+598)" WHERE country = "Uruguay";
+UPDATE contacts SET phone_code =  "(+216)" WHERE country = "Tunisia";
+UPDATE contacts SET phone_code =  "(+1)" WHERE country = "Canada";
+UPDATE contacts SET phone_code =  "(+238)" WHERE country = "Cape Verde";
+UPDATE contacts SET phone_code =  "(+224)" WHERE country = "Guinea";
+
+UPDATE contacts SET phone_code =  "(+47)" WHERE country = "Norway";
+UPDATE contacts SET phone_code =  "(+381)" WHERE country = "Serbia";
+UPDATE contacts SET phone_code =  "(+962)" WHERE country = "Jordan";
+UPDATE contacts SET phone_code =  "(+260)" WHERE country = "Zambia";
+UPDATE contacts SET phone_code =  "(+504)" WHERE country = "Honduras";
+UPDATE contacts SET phone_code =  "(+977)" WHERE country = "Nepal";
+UPDATE contacts SET phone_code =  "(+045)" WHERE country = "Denmark";
+UPDATE contacts SET phone_code =  "(+82)" WHERE country = "South Korea";
+UPDATE contacts SET phone_code =  "(+81)" WHERE country = "Japan";
+UPDATE contacts SET phone_code =  "(+880)" WHERE country = "Bangladesh";
+UPDATE contacts SET phone_code =  "(+856)" WHERE country = "Laos";
+
+UPDATE contacts SET phone_code =  "(+998)" WHERE country = "Uzbekistan";
+UPDATE contacts SET phone_code =  "(+372)" WHERE country = "Estonia";
+UPDATE contacts SET phone_code =  "(+876)" WHERE country = "Jamaica";
+UPDATE contacts SET phone_code =  "(+505)" WHERE country = "Nicaragua";
+UPDATE contacts SET phone_code =  "(+265)" WHERE country = "Malawi";
+UPDATE contacts SET phone_code =  "(+60)" WHERE country = "Malaysia";
+UPDATE contacts SET phone_code =  "(+386)" WHERE country = "Slovenia";
+UPDATE contacts SET phone_code =  "(+034)" WHERE country = "Spain";
+UPDATE contacts SET phone_code =  "(+389)" WHERE country = "Macedonia";
+
+
+UPDATE contacts SET phone_code =  "(+970)" WHERE country = "Palestinian Territory";
+UPDATE contacts SET phone_code =  "(+679)" WHERE country = "Fiji";
+UPDATE contacts SET phone_code =  "(+243)" WHERE country = "Democratic Republic of the Congo";
+UPDATE contacts SET phone_code =  "(+043)" WHERE country = "Austria";
+UPDATE contacts SET phone_code =  "(+054)" WHERE country = "Argentina";
+UPDATE contacts SET phone_code =  "(+507)" WHERE country = "Panama";
+UPDATE contacts SET phone_code =  "(+994)" WHERE country = "Azerbaijan";
+UPDATE contacts SET phone_code =  "(+592)" WHERE country = "Guyana";
+UPDATE contacts SET phone_code =  "(+758)" WHERE country = "Saint Lucia";
+UPDATE contacts SET phone_code =  "(+039)" WHERE country = "Italy";
+UPDATE contacts SET phone_code =  "(+974)" WHERE country = "Qatar";
+UPDATE contacts SET phone_code =  "(+302)" WHERE country = "Belgium";
+UPDATE contacts SET phone_code =  "(+385)" WHERE country = "Croatia";
+UPDATE contacts SET phone_code =  "(+855)" WHERE country = "Cambodia";
+UPDATE contacts SET phone_code =  "(+095)" WHERE country = "Myanmar";
+
+UPDATE contacts SET phone_code =  "(+056)" WHERE country = "Chile";
+UPDATE contacts SET phone_code =  "(+595)" WHERE country = "Paraguay";
+UPDATE contacts SET phone_code =  "(+993)" WHERE country = "Turkmenistan";
+UPDATE contacts SET phone_code =  "(+251)" WHERE country = "Ethiopia";
+UPDATE contacts SET phone_code =  "(+963)" WHERE country = "Syria";
+UPDATE contacts SET phone_code =  "(+061)" WHERE country = "Australia";
+UPDATE contacts SET phone_code =  "(+244)" WHERE country = "Angola";
+UPDATE contacts SET phone_code =  "(+222)" WHERE country = "Mauritania";
+UPDATE contacts SET phone_code =  "(+356)" WHERE country = "Malta";
+UPDATE contacts SET phone_code =  "(+672)" WHERE country = "Norfolk Island";
+UPDATE contacts SET phone_code =  "(+007)" WHERE country = "Kazakhstan";
+UPDATE contacts SET phone_code =  "(+226)" WHERE country = "Burkina Faso";
+UPDATE contacts SET phone_code =  "(+249)" WHERE country = "Sudan";
+UPDATE contacts SET phone_code =  "(+223)" WHERE country = "Mali";
