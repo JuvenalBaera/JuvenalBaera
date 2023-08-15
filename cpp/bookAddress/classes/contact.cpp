@@ -2,37 +2,31 @@
 #include "contact.h"
 
 Contact::Contact(){}
-Contact::Contact(std::string fname, std::string lname, std::string phone, std::string email){
-    this->fname = fname;
-    this->lname = lname;
+Contact::Contact(Person p, std::string code, std::string country, std::string phone, std::string email){
+    this->person = p;
     this->phone = phone;
     this->email = email;
+    this->createdAt = Date::getAtualDate() + " - " +  Date::getAtualTime();
+    this->lastUpdate = Date::getAtualDate() + " - " + Date::getAtualTime();
 }
 
 // ############### GETTERS ###############
-std::string Contact::getFirstName(){return this->fname;}
-std::string Contact::getLastName(){return this->lname;}
+Person Contact::getPerson(){return this->person;}
 std::string Contact::getPhone(){return this->phone;}
 std::string Contact::getEmail(){return this->email;}
-std::string Contact::getFullName(){return this->fname + " " + this->lname;}
+std::string Contact::getCreatedDate(){return this->createdAt;}
+std::string Contact::getLasUpdate(){return this->lastUpdate;}
 std::string Contact::getPhoneFormated(){
-    std::string aux = this->phone;
-    aux.insert(3, "-");
-    aux.insert(7, "-");
-    return aux;
+    return "(+" + this->codeArea + ")" + this->phone;
 }
 
 // ############### SETTERS ###############
-void Contact::setFirstName(std::string fname){this->fname = fname;}
+void Contact::setPerson(Person p){this->person = p;}
 void Contact::setPhone(std::string phone){this->phone = phone;}
 void Contact::setEmail(std::string email){this->email = email;}
-void Contact::setLastName(std::string lname){this->lname = lname;}
-void Contact::setFullName(std::string fname, std::string lname){
-    this->setFirstName(fname);
-    this->setLastName(lname);
-}
-void Contact::setAllData(std::string fname, std::string lname, std::string phone, std::string email){
-    this->setFullName(fname, lname);
+void Contact::lastUpdateContact(){this->lastUpdate = Date::getAtualDate() + " - " + Date::getAtualTime();}
+void Contact::setAllData(Person p, std::string phone, std::string email){
+    this->person = p;
     this->setPhone(phone);
     this->setEmail(email);
 }

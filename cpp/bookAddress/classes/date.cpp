@@ -82,6 +82,12 @@ bool Date::checkDate(int day, int month, int year){
     return false;
 }
 
+char* Date::getFullDate(){
+    char aux[15];
+    sprintf(aux, "%04d-%02d-%02d", this->year, this->month, this->day);
+    return aux;
+}
+
 std::string Date::getAtualDate(){return __DATE__;}
 
 std::string Date::getAtualTime(){return __TIME__;}

@@ -3,33 +3,38 @@
 
 #include <iostream>
 
+#include "person.h"
+#include "date.h"
+
 class Contact{
     private:
-        std::string fname;
-        std::string lname;
+        Person person;
+        std::string codeArea;
         std::string phone;
+        std::string country;
         std::string email;
+        std::string createdAt;
+        std::string lastUpdate;
 
     public:
         Contact();
-        Contact(std::string fname, std::string lname, std::string phone, std::string email);
+        Contact(Person p, std::string code, std::string country, std::string phone, std::string email);
 
         // ############### GETTERS ###############
-        std::string getFirstName();
-        std::string getLastName();
+        Person getPerson();
         std::string getPhone();
         std::string getPhoneFormated();
         std::string getEmail();
-        std::string getFullName();
+        std::string getCreatedDate();
+        std::string getLasUpdate();
 
 
         // ############### SETTERS ###############
-        void setFirstName(std::string fname);
-        void setLastName(std::string lname);
-        void setFullName(std::string fname, std::string lname);
+        void setPerson(Person p);
         void setPhone(std::string phone);
         void setEmail(std::string email);
-        void setAllData(std::string fname, std::string lname, std::string phone, std::string email);
+        void lastUpdateContact();
+        void setAllData(Person p, std::string phone, std::string email);
 };
 
 #endif

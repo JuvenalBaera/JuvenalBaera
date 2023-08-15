@@ -20,6 +20,7 @@ class Date{
         bool setYear(int year);
         bool setDate(int day, int month, int year);
         bool checkDate(int day, int month, int year);
+        char* getFullDate();
         static std::string getAtualDate();
         static std::string getAtualTime();
         static bool isLeapYear(int year);
