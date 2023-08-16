@@ -22,6 +22,7 @@ class Contact{
 
         // ############### GETTERS ###############
         Person getPerson();
+        std::string getCodeArea();
         std::string getPhone();
         std::string getPhoneFormated();
         std::string getEmail();
@@ -31,6 +32,7 @@ class Contact{
 
         // ############### SETTERS ###############
         void setPerson(Person p);
+        void setCodeArea(std::string codeArea);
         void setPhone(std::string phone);
         void setEmail(std::string email);
         void lastUpdateContact();

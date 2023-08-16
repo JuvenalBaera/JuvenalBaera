@@ -50,8 +50,6 @@ std::string readPhoneNumber(){
         }
     }while(sizeLen == 0);
 
-
-
     sizeLen = phone.length();
     if(sizeLen != 9){
         for(int i = 0; i < 9 - sizeLen; i++)
@@ -60,7 +58,13 @@ std::string readPhoneNumber(){
     return phone;
 }
 
-Contact readContact(){
+Date readDateCmd(){
+    
+}
+
+Person readPersonCmd();
+
+Contact readContactCmd(){
     Contact c;
     std::string fname, lname, phone, email;
 
@@ -70,7 +74,8 @@ Contact readContact(){
     phone = readPhoneNumber();
     email = readEmail();
 
-    c.setFullName(fname, lname);
+    c.getPerson().setFirstName(fname);
+    c.getPerson().setLastName(lname);
     c.setPhone(phone);
     c.setEmail(email);
 

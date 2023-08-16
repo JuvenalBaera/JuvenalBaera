@@ -3,6 +3,8 @@
 
 #include <iostream>
 #include "./../classes/contact.h"
+#include "./../classes/person.h"
+#include "./../classes/date.h"
 #include "./../util/util.h"
 #include "./../util/messages.h"
 
@@ -11,6 +13,8 @@ std::string readFname();
 std::string readLname();
 std::string readPhoneNumber();
 std::string readEmail();
-Contact readContact();
+Date readDateCmd();
+Person readPersonCmd();
+Contact readContactCmd();
 
 #endif

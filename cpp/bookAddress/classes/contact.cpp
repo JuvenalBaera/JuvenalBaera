@@ -12,6 +12,7 @@ Contact::Contact(Person p, std::string code, std::string country, std::string ph
 
 // ############### GETTERS ###############
 Person Contact::getPerson(){return this->person;}
+std::string Contact::getCodeArea(){return this->codeArea;}
 std::string Contact::getPhone(){return this->phone;}
 std::string Contact::getEmail(){return this->email;}
 std::string Contact::getCreatedDate(){return this->createdAt;}
@@ -22,6 +23,7 @@ std::string Contact::getPhoneFormated(){
 
 // ############### SETTERS ###############
 void Contact::setPerson(Person p){this->person = p;}
+void Contact::setCodeArea(std::string codeArea){this->codeArea = codeArea;}
 void Contact::setPhone(std::string phone){this->phone = phone;}
 void Contact::setEmail(std::string email){this->email = email;}
 void Contact::lastUpdateContact(){this->lastUpdate = Date::getAtualDate() + " - " + Date::getAtualTime();}
