@@ -3,6 +3,7 @@
 Date::Date(){}
 
 Date::Date(int day, int month, int year){
+    this->dateStr = " ";
     if(setDate(day, month, year) == false){
         this->day = 0;
         this->month = 0;
@@ -47,6 +48,7 @@ bool Date::setYear(int year){
 }
 
 bool Date::setDate(int day, int month, int year){
+    this->dateStr = " ";
     if(isInRange(year, 2023-50, 2023)){
         if(checkDate(day, month, year)){
             this->setDay(day);
@@ -57,6 +59,11 @@ bool Date::setDate(int day, int month, int year){
         return false;
     }
     return false;
+}
+
+bool Date::setDate(std::string date){
+    this->dateStr = date;
+    return true;
 }
 
 bool Date::checkDate(int day, int month, int year){
@@ -83,10 +90,11 @@ bool Date::checkDate(int day, int month, int year){
 }
 
 char* Date::getFullDate(){
-    char aux[15];
+    char *aux = (char*) malloc(sizeof(char) * 15);
     sprintf(aux, "%04d-%02d-%02d", this->year, this->month, this->day);
     return aux;
 }
+std::string Date::getFullDate(bool idk){return this->dateStr;}
 
 std::string Date::getAtualDate(){return __DATE__;}
 

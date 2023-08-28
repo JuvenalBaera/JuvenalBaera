@@ -9,6 +9,7 @@
 class Date{
     private:
         int day, month, year;
+        std::string dateStr;
     public:
         Date();
         Date(int day, int moth, int year);
@@ -19,8 +20,10 @@ class Date{
         bool setMonth(int month);
         bool setYear(int year);
         bool setDate(int day, int month, int year);
-        bool checkDate(int day, int month, int year);
+        bool setDate(std::string date);
         char* getFullDate();
+        std::string getFullDate(bool);
+        static bool checkDate(int day, int month, int year);
         static std::string getAtualDate();
         static std::string getAtualTime();
         static bool isLeapYear(int year);

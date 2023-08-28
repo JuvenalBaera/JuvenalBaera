@@ -52,7 +52,6 @@ void showMessageError(std::string msg){
     resetColor();
 }
 
-template <typename T>
-bool isInRange(T num, T min, T max){
+bool isInRange(int num, int min, int max){
     return num >= min && num <= max ? true : false;
 }

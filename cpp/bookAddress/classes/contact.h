@@ -10,7 +10,7 @@ class Contact{
     private:
         Person person;
         std::string codeArea;
-        std::string phone;
+        std::string phone_number;
         std::string country;
         std::string email;
         std::string createdAt;
@@ -23,9 +23,9 @@ class Contact{
         // ############### GETTERS ###############
         Person getPerson();
         std::string getCodeArea();
-        std::string getPhone();
-        std::string getPhoneFormated();
+        std::string getPhoneNumber();
         std::string getEmail();
+        std::string getCountry();
         std::string getCreatedDate();
         std::string getLasUpdate();
 
@@ -35,8 +35,9 @@ class Contact{
         void setCodeArea(std::string codeArea);
         void setPhone(std::string phone);
         void setEmail(std::string email);
+        void setCountry(std::string country);
         void lastUpdateContact();
-        void setAllData(Person p, std::string phone, std::string email);
+        void setAllData(Person p, std::string phone_code, std::string phone, std::string email, std::string country);
 };
 
 #endif

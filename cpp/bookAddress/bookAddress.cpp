@@ -22,12 +22,13 @@ int main(){
     AddressBook phoneBook;
     std::vector<Contact> allcontacts;
     Contact *c = nullptr;
+    Person person;
     int option, optionInside;
     std::string phone, name;
 
     system("mkdir data");
     system("cls");
-    header();
+    //header();
     system("cls");
 
     readFromDatabase(&phoneBook, DB_NAME);
@@ -35,15 +36,15 @@ int main(){
     do{
         newLine();
         mainMenu();
-        option = readOption();
+        option = readOptionCmd();
         switch(option){
             case MAIN_OPTIONS::EXIT:
                 std::cout << EXIT_MSG;
-                writeToDatabase(phoneBook.getAllContacts(), DB_NAME);
+                // writeToDatabase(phoneBook.getAllContacts(), DB_NAME);
                 exit(EXIT_SUCCESS);
             break;
             case MAIN_OPTIONS::ADD_CONTACT:
-                if(phoneBook.insertContact(readContact()) == true)
+                if(phoneBook.insertContact(readContactCmd()) == true)
                     showMessageSuccess(CONTACT_SUCESS_MSG);
                 else
                     showMessageError(CONTACT_FAIL_MSG);
@@ -63,7 +64,7 @@ int main(){
             case MAIN_OPTIONS::SEARCH_CONTACT:
                 if(AddressBook::getTotalContact() > 0){
                     std::cout << FOLLOWING_INFO_MSG;
-                    phone = readPhoneNumber();
+                    phone = readPhoneNumberCmd();
                     c = phoneBook.searchContactByPhone(phone);
                     newLine();
                     if(c == NULL)
@@ -72,7 +73,7 @@ int main(){
                         printContact(*c);
                         do{
                             contactMenu();
-                            optionInside = readOption();
+                            optionInside = readOptionCmd();
 
                             switch(optionInside){
                                 case CONTACT_OPTIONS::BACK_CONTACT: break;
@@ -84,25 +85,25 @@ int main(){
                                     newLine();
                                     do{
                                         changeMenu();
-                                        option =  readOption();
+                                        option =  readOptionCmd();
 
                                         switch(option){
                                             case EDIT_OPTIONS::BACK_EDIT: break;
                                             case EDIT_OPTIONS::FNAME_EDIT:
                                                 std::cout << FOLLOWING_INFO_MSG;
-                                                name = readFname();
-                                                c->setFirstName(name);
+                                                name = readFnameCmd();
+                                                c->getPerson().setFirstName(name);
                                                 showMessageSuccess(FNAME_UPDATE_MSG);
                                             break;
                                             case EDIT_OPTIONS::LNAME_EDIT:
                                                 std::cout << FOLLOWING_INFO_MSG;
-                                                name = readLname();
-                                                c->setLastName(name);
+                                                name = readLnameCmd();
+                                                c->getPerson().setLastName(name);
                                                 showMessageSuccess(LNAME_UPDATE_MSG);
                                             break;
                                             case EDIT_OPTIONS::PHONE_EDIT:
                                                 std::cout << FOLLOWING_INFO_MSG;
-                                                phone = readPhoneNumber();
+                                                phone = readPhoneNumberCmd();
                                                 if(phoneBook.searchContactByPhone(phone) == NULL){
                                                     c->setPhone(phone);
                                                     showMessageSuccess(PHONE_UPDATE_MSG);
@@ -112,7 +113,7 @@ int main(){
                                             break;
                                             case EDIT_OPTIONS::EMAIL_EDIT:
                                                 std::cout << FOLLOWING_INFO_MSG;
-                                                name = readEmail();
+                                                name = readEmailCmd();
                                                 c->setEmail(name);
                                                 showMessageSuccess(EMAIL_UPDATE_MSG);
                                             break;
@@ -131,7 +132,7 @@ int main(){
                                     newLine();
                                     do{
                                         yesNoMenu();
-                                        optionInside = readOption();
+                                        optionInside = readOptionCmd();
                                     }while(optionInside < 1 || optionInside > 2);
                                     if(optionInside == 1){
                                         phoneBook.deleteContact(phone);

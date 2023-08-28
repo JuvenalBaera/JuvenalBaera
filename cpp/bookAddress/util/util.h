@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-#define DB_NAME "data/data.csv"
+#define DB_NAME "data/addressbook.txt"
 
 #define RED_COLOR "\033[1;31m"
 #define GREEN_COLOR "\033[1;32m"
@@ -51,7 +51,6 @@ void resetColor();
 
 void showMessageSuccess(std::string msg);
 void showMessageError(std::string msg);
-template <typename T>
-bool isInRange(T num, T min, T max);
+bool isInRange(int num, int min, int max);
 
 #endif

@@ -3,9 +3,9 @@
 unsigned int AddressBook::total_contact = 0;
 
 bool AddressBook::insertContact(Contact c){
-    if(myContacts.count(c.getPhone()) > 0)
+    if(myContacts.count(c.getPhoneNumber()) > 0)
         return false;
-    myContacts[c.getPhone()] = c;
+    myContacts[c.getPhoneNumber()] = c;
     AddressBook::total_contact++;
     return true;
 }

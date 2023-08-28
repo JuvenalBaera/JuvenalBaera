@@ -8,11 +8,12 @@
 #include "./../util/util.h"
 #include "./../util/messages.h"
 
-int readOption();
-std::string readFname();
-std::string readLname();
-std::string readPhoneNumber();
-std::string readEmail();
+int readOptionCmd();
+std::string readFnameCmd();
+std::string readLnameCmd();
+char readGenderCmd();
+std::string readPhoneNumberCmd();
+std::string readEmailCmd();
 Date readDateCmd();
 Person readPersonCmd();
 Contact readContactCmd();

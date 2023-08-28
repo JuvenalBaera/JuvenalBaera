@@ -9,8 +9,8 @@ void writeToDatabase(std::vector<Contact> contacts, std::string filename){
 
     if(writer.is_open()){
         for(Contact c: contacts){
-            writer << c.getFirstName() << " " << c.getLastName() << " " 
-                   << c.getPhone() << " " << c.getEmail() << "\n";
+            writer << c.getPerson().getFirstName() << "\t" << c.getPerson().getLastName() << "\t" 
+                   << c.getPhoneNumber() << "\t" << c.getEmail() << "\n";
         }
         writer.close();
     }

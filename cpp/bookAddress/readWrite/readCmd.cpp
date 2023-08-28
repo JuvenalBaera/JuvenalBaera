@@ -1,26 +1,36 @@
 #include "readcmd.h"
 
-int readOption(){
+int readOptionCmd(){
     int option;
     option = readInteger(CHOOSE_OPTION_MSG);
     return option;
 }
 
-std::string readFname(){
+std::string readFnameCmd(){
     std::string fname;
     std::cout << FNAME_INPUT_MSG;
     fname = readString();
     return fname;
 }
 
-std::string readLname(){
+std::string readLnameCmd(){
     std::string lname;
     std::cout << LNAME_INPUT_MSG;
     lname = readString();
     return lname;
 }
 
-std::string readEmail(){
+char readGenderCmd(){
+    char gender;
+    do{
+        std::cout << "\tGender: ";
+        std::cin >> gender;
+    }while(gender != 'm' && gender != 'M' &&
+           gender != 'f' && gender != 'F');
+    return gender;
+}
+
+std::string readEmailCmd(){
     std::string email;
     do{
         std::cout << EMAIL_INPUT_MSG;
@@ -29,11 +39,11 @@ std::string readEmail(){
             std::cout << INVALID_EMAIL;
         else
             break;
-    }while(1);
+    }while(true);
     return email;
 }
 
-std::string readPhoneNumber(){
+std::string readPhoneNumberCmd(){
     std::string phone;
     int sizeLen = 1;
 
@@ -59,23 +69,45 @@ std::string readPhoneNumber(){
 }
 
 Date readDateCmd(){
-    
+    int day, month, year;
+    Date date;
+
+    std::cout << FOLLOWING_INFO_MSG;
+    do{
+        day = readInteger("\tDay..: ");
+        month = readInteger("\tMonth: ");
+        year = readInteger("\tYear.: ");
+    }while(!Date::checkDate(day, month, year));
+
+    date.setDate(day, month, year);
+    return date;
 }
 
-Person readPersonCmd();
+Person readPersonCmd(){
+    Person person;
+    std::string fname, lname;
+    char gender;
+    Date birth;
+
+    fname = readFnameCmd();
+    lname = readLnameCmd();
+    gender = readGenderCmd();
+    birth = readDateCmd();
+
+    person.setAllData(fname, lname, gender, birth);
+    return person;
+}
 
 Contact readContactCmd(){
     Contact c;
-    std::string fname, lname, phone, email;
+    Person p;
+    std::string phone, email;
 
     std::cout << FOLLOWING_INFO_MSG;
-    fname = readFname();
-    lname = readLname();
-    phone = readPhoneNumber();
-    email = readEmail();
-
-    c.getPerson().setFirstName(fname);
-    c.getPerson().setLastName(lname);
+    p = readPersonCmd();
+    phone = readPhoneNumberCmd();
+    email = readEmailCmd();
+    
     c.setPhone(phone);
     c.setEmail(email);
 
