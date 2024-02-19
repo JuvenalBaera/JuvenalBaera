@@ -1,0 +1,3 @@
+SubscriptionId: 10575410-795f-4bb6-acb1-3e7fdb34a62f
+Resource: testando1234
+ContainerName: containerteste

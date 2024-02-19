@@ -1,0 +1,24 @@
+pessoa:
+    id
+    Nome
+    Apelido
+    data_nasc
+    Bi
+Morada:
+    id_pessoa
+    Rua
+    Lote
+    localidade
+    Código Postal
+Funcionario:
+    código_funcionario
+    id_pessoa
+    cargo
+    setor
+    data_contrato
+Client:
+    Código_cliente
+    id_pessoa
+    data_aquisicao
+Produtos:
+    
