@@ -1,0 +1,37 @@
+h1 {
+    text-align: center;
+    background-color: rgb(2, 153, 153);
+    width: 300px;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px 5px 0 0;
+}
+
+form{
+    background-color: rgb(2, 153, 153);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+    width: 300px;
+    height: auto;
+    border-radius: 0 0 5px 5px;
+}
+
+form > * {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    height: 30px;
+    padding: 2px;
+}
+
+button{
+    background-color: rgba(0, 0, 255, 0.13);
+    border: none;
+    transition: 1s; 
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgba(1, 1, 175, 0.726);
+}

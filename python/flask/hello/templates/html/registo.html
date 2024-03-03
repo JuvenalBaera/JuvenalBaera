@@ -1,0 +1,27 @@
+{% extends "./layout/layout.html" %}
+
+{% block titulo %} Casa {% endblock %}
+{% block url_css %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/form.css') }}">
+{% endblock %}
+
+{% block corpo %}
+    <h1>Registo</h1>
+    <form action="/registo" method="post">
+        <input type="text" name="nome" required  placeholder="Nome">
+        <input type="email" name="email" placeholder="exemplo@email.fake" required>
+        <input type="text" name="password" required placeholder="Password">
+        <input type="text" name="password_rep" required placeholder="Repete a password">
+        <select name="desporto" required>
+            <option value="" disabled selected>Desporto</option>
+            {% for desporto in desportos %}
+                <option value="{{ desporto }}">{{ desporto }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit">Registar</button>
+        <button type="button" id="btn_login">Login</button>
+        {% if error %}
+            <p id="erro">{{ error }}</p>
+        {% endif %}
+    </form>
+{% endblock %}

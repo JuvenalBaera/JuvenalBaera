@@ -1,0 +1,16 @@
+{% extends "./layout/layout.html" %}
+
+{% block titulo %} Casa {% endblock %}
+{% block url_css %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/form.css') }}">
+{% endblock %}
+
+{% block corpo %}
+    <h1>Login</h1>
+    <form action="/" method="post">
+        <input type="email" name="email" placeholder="exemplo@email.fake" required>
+        <input type="text" name="password" required placeholder="Password">
+        <button type="submit">Login</button>
+        <button type="button" id="btn_registo">Registar</button>
+    </form>
+{% endblock %}

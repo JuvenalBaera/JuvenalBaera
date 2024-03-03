@@ -1,0 +1,10 @@
+{% extends "./layout/layout.html" %}
+
+{% block titulo %} Casa {% endblock %}
+{% block url_css %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/style.css') }}">
+{% endblock %}
+
+{% block corpo %}
+    <h1>{{ user }}</h1>
+{% endblock %}
