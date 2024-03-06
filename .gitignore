@@ -5,3 +5,6 @@
 .vscode
 .idea
 .class
+
+*.mp3
+*.mp4

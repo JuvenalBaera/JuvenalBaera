@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 
-# Create a Flast Instance
+# Create a Flask Instance
 app = Flask(__name__)
 
 # Create a route decorator
@@ -18,10 +18,8 @@ def user(name):
 
 
 # Custom error page
-
 @app.errorhandler(404)
 def pageNotFound(e):
-    print(e)
     return render_template("error404.html")
 
 
