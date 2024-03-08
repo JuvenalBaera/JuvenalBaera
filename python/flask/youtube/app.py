@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, flash, send_file
+from flask import Flask, render_template, request, send_file
 from flask_wtf import FlaskForm
 from wtforms import SubmitField, URLField, SelectField
 from wtforms.validators import DataRequired
@@ -6,15 +6,13 @@ from download import download_audio, download_video
 
 app = Flask(__name__)
 
-
 app.config["SECRET_KEY"] = "12345"
 
 # Entry form 
 class URLFORM(FlaskForm):
     url = URLField("Youtube Url", validators=[DataRequired()], render_kw={"autocomplete":"off"})
-    select = SelectField("Audio/video", choices=[("audio", "audio"), ("video", "video")] ,validators=[DataRequired()])
+    select = SelectField("Select audio or video", choices=[("audio", "audio"), ("video", "video")] ,validators=[DataRequired()])
     submit = SubmitField("Download")
-
 
 
 @app.route("/", methods=["GET", "POST"])
