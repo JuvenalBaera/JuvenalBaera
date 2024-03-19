@@ -1,10 +1,46 @@
 import os
+from pprint import pprint
 import eyed3
 import requests
 from pytube import YouTube, exceptions as pt_ex
 from urllib import error
 from moviepy.editor import AudioFileClip
 from datetime import datetime
+
+from googleapiclient.discovery import build
+
+
+def channel_info():
+    # set api 
+    api_key = os.environ.get("AIzaSyAZ2eXB9AN-im_VDoedf_kunqaMLVadANY")
+
+    # YT API
+    youtube = build("youtube", "v3", developerKey=api_key)
+
+    req = youtube.channels().list(
+        part = "snippet,statistics",
+        id="UCSlc03FS0Hr9zha4Tn-luLA"
+    )
+
+    res = req.execute()
+    # Extract relevant information
+    channel_data = res['items'][0]
+    channel_info = {
+        'title': channel_data['snippet']['title'],
+        'description': channel_data['snippet']['description'],
+        'subscriber_count': channel_data['statistics']['subscriberCount'],
+        'view_count': channel_data['statistics']['viewCount'],
+        'video_count': channel_data['statistics']['videoCount']
+    }
+    pprint(channel_info)
+
+
+def stream_info(stream:YouTube):
+    print(f"Author..: {stream.author}")
+    print(f"Length..: {stream.length} sec")
+    print(f"Rating..: {stream.rating}")
+    print(f"Views...: {stream.views}")
+    print(f"Metadata: {stream.metadata}")
 
 
 def download_yt(url_file:str):
@@ -57,6 +93,29 @@ def download_yt(url_file:str):
 
 
 
+def download_video(url_file):
+    yt = None
+    video_stream = None
+    try:
+        yt = YouTube(url=url_file)
+        video_stream = yt.streams.get_highest_resolution()
+    except error.URLError:
+        print("You're not connected to internet")
+    except pt_ex.RegexMatchError:
+        print(f"Url not found: {url_file}")
+    except PermissionError:
+        print(f"Permission denied: {video_stream.title}")
+    except pt_ex.AgeRestrictedError:
+        print("This video has age restriction, login first")
+    except Exception as ex:
+        print(ex.__class__)
+    else:
+        # video_stream.download(output_path="./download")
+        stream_info(yt)
+
+
+
+
 yt_urls = [
     "https://youtu.be/WTJSt4wP2ME?si=cYUjJULRE263METG",
     # "https://youtu.be/PsO6ZnUZI0g?si=60WfFOuIQXscyecg",
@@ -80,13 +139,16 @@ yt_urls = [
     # "https://youtu.be/LHCob76kigA?si=0bSCJmASIdsyJyYi",
     # "https://youtu.be/ryr75N0nki0?si=142LB3bY-y9F-dMI",
     # "https://youtu.be/2fngvQS_PmQ?si=TXuiUk2XS5N421BH",
-    # "https://youtu.be/n4RjJKxsamQ?si=UzwfajP2awpN1VL0"
+    # "https://youtu.be/n4RjJKxsamQ?si=UzwfajP2awpN1VL0",
+    # "https://youtube.com/shorts/1lxyENrpeHM?si=ZCP8EkYUM-ClySvN"
 ]
 
-#download_yt("https://youtu.be/ryr75N0nki0?si=142LB3bY-y9F-dMI")
+# download_video("https://youtu.be/k2yvWOxXjfY?si=rvUtzlt0Ewzfc1sA")
 
-for yt_url in yt_urls:
-    # my_thread = threading.Thread(target=download_yt, args=(yt_url,))
-    # my_thread.start()
-    # # my_thread.join()
-    download_yt(yt_url)
+# for yt_url in yt_urls:
+#     # download_yt(yt_url)
+#     download_video(yt_url)
+
+
+
+channel_info()

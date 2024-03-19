@@ -68,7 +68,6 @@ def download_video(url_file:str):
     except Exception as ex:
         print(ex.__class__)
     else:
-        yt = YouTube(url_file)
         video_strem = yt.streams.get_highest_resolution()
         video = video_strem.download(output_path="./download")
     return video
