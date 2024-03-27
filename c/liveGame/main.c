@@ -77,19 +77,19 @@ void copy_gen(char aGen[TAM_MAT][TAM_MAT], char nGen[TAM_MAT][TAM_MAT]){
 void print_matriz(char matriz[TAM_MAT][TAM_MAT]){
     system("cls");
     printf("\n ");
-    for(int i = 0; i < TAM_MAT; i++)
-        printf(" %2d ", i);
-    printf("\n");
+    // for(int i = 0; i < TAM_MAT; i++)
+    //     printf(" %2d ", i);
+    // printf("\n");
     for(int i = 0; i < TAM_MAT; i++){
-        printf("%2d", i);
+        // printf("%2d", i);
         for(int j = 0; j < TAM_MAT; j++){
             printf(" %c  ", matriz[i][j]);
         }
-        printf("%d", i);
+        // printf("%d", i);
         putchar('\n');
     }
-    for(int i = 0; i < TAM_MAT; i++)
-    printf(" %2d ", i);
+    // for(int i = 0; i < TAM_MAT; i++)
+    // printf(" %2d ", i);
 }
 
 void intro(){
