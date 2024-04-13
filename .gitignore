@@ -8,3 +8,6 @@
 
 *.mp3
 *.mp4
+*.spec
+build
+__pycache__
